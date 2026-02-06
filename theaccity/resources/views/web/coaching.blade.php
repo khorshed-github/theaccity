@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 <main>
 
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/breadcrumb/breadcrumb.png">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/breadcrumb/breadcrumb.png">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -33,7 +33,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="coaching__item mb-30 d-flex align-items-center wow fadeInLeft animated" data-wow-delay=".2s">
                         <div class="coaching__item-midea" data-tilt>
-                            <img class="img-fluid" src="public/web-assets/imgs/coaching/coaching-card-img1.png" alt="img not found">
+                            <img class="img-fluid" src="web-assets/imgs/coaching/coaching-card-img1.png" alt="img not found">
                         </div>
                         <div class="coaching__item-content">
                             <h4 class="coaching__item-content-title mb-20">OET Coach     ing</h4>
@@ -47,7 +47,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="coaching__item mb-30 d-flex align-items-center wow fadeInLeft animated" data-wow-delay=".3s">
                         <div class="coaching__item-midea" data-tilt>
-                            <img class="img-fluid" src="public/web-assets/imgs/coaching/coaching-card-img2.png" alt="img not found">
+                            <img class="img-fluid" src="web-assets/imgs/coaching/coaching-card-img2.png" alt="img not found">
                         </div>
                         <div class="coaching__item-content">
                             <h4 class="coaching__item-content-title mb-20">IELTS Coaching</h4>
@@ -61,7 +61,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="coaching__item mb-30 d-flex align-items-center wow fadeInLeft animated" data-wow-delay=".4s">
                         <div class="coaching__item-midea" data-tilt>
-                            <img class="img-fluid" src="public/web-assets/imgs/coaching/coaching-card-img3.png" alt="img not found">
+                            <img class="img-fluid" src="web-assets/imgs/coaching/coaching-card-img3.png" alt="img not found">
                         </div>
                         <div class="coaching__item-content">
                             <h4 class="coaching__item-content-title mb-20">TOFEL Coaching</h4>
@@ -75,7 +75,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="coaching__item mb-30 d-flex align-items-center wow fadeInLeft animated" data-wow-delay=".5s">
                         <div class="coaching__item-midea" data-tilt>
-                            <img class="img-fluid" src="public/web-assets/imgs/coaching/coaching-card-img4.png" alt="img not found">
+                            <img class="img-fluid" src="web-assets/imgs/coaching/coaching-card-img4.png" alt="img not found">
                         </div>
                         <div class="coaching__item-content">
                             <h4 class="coaching__item-content-title mb-20">Citizenship Test</h4>
@@ -89,7 +89,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="coaching__item mb-30 d-flex align-items-center wow fadeInLeft animated" data-wow-delay=".6s">
                         <div class="coaching__item-midea" data-tilt>
-                            <img class="img-fluid" src="public/web-assets/imgs/coaching/coaching-card-img5.png" alt="img not found">
+                            <img class="img-fluid" src="web-assets/imgs/coaching/coaching-card-img5.png" alt="img not found">
                         </div>
                         <div class="coaching__item-content">
                             <h4 class="coaching__item-content-title mb-20">Life Coaching</h4>
@@ -103,7 +103,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="coaching__item mb-30 d-flex align-items-center wow fadeInLeft animated" data-wow-delay=".7s">
                         <div class="coaching__item-midea" data-tilt>
-                            <img class="img-fluid" src="public/web-assets/imgs/coaching/coaching-card-img6.png" alt="img not found">
+                            <img class="img-fluid" src="web-assets/imgs/coaching/coaching-card-img6.png" alt="img not found">
                         </div>
                         <div class="coaching__item-content">
                             <h4 class="coaching__item-content-title mb-20">Career coaching</h4>
@@ -117,7 +117,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="coaching__item mb-30 d-flex align-items-center wow fadeInLeft animated" data-wow-delay=".8s">
                         <div class="coaching__item-midea" data-tilt>
-                            <img class="img-fluid" src="public/web-assets/imgs/coaching/coaching-card-img7.png" alt="img not found">
+                            <img class="img-fluid" src="web-assets/imgs/coaching/coaching-card-img7.png" alt="img not found">
                         </div>
                         <div class="coaching__item-content">
                             <h4 class="coaching__item-content-title mb-20">Skills Exam</h4>
@@ -131,7 +131,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="coaching__item mb-30 d-flex align-items-center wow fadeInLeft animated" data-wow-delay=".9s">
                         <div class="coaching__item-midea" data-tilt>
-                            <img class="img-fluid" src="public/web-assets/imgs/coaching/coaching-card-img8.png" alt="img not found">
+                            <img class="img-fluid" src="web-assets/imgs/coaching/coaching-card-img8.png" alt="img not found">
                         </div>
                         <div class="coaching__item-content">
                             <h4 class="coaching__item-content-title mb-20">PTE Couching</h4>
@@ -145,7 +145,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="coaching__item mb-30 d-flex align-items-center wow fadeInLeft animated" data-wow-delay="1s">
                         <div class="coaching__item-midea" data-tilt>
-                            <img class="img-fluid" src="public/web-assets/imgs/coaching/coaching-card-img9.png" alt="img not found">
+                            <img class="img-fluid" src="web-assets/imgs/coaching/coaching-card-img9.png" alt="img not found">
                         </div>
                         <div class="coaching__item-content">
                             <h4 class="coaching__item-content-title mb-20">SAT Couching</h4>
@@ -171,35 +171,35 @@
                                 <div class="swiper-slide">
                                     <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".1s">
                                         <div class="brand__thumb">
-                                            <a href="https://segment.com/"><img class="img-fluid" src="public/web-assets/imgs/brands/home2-companey-brands-img-1.png" alt="image not found"></a>
+                                            <a href="https://segment.com/"><img class="img-fluid" src="web-assets/imgs/brands/home2-companey-brands-img-1.png" alt="image not found"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".2s">
                                         <div class="brand__thumb">
-                                            <a href="https://www.splunk.com/"><img class="img-fluid" src="public/web-assets/imgs/brands/home2-companey-brands-img-2.png" alt="image not found"></a>
+                                            <a href="https://www.splunk.com/"><img class="img-fluid" src="web-assets/imgs/brands/home2-companey-brands-img-2.png" alt="image not found"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".3s">
                                         <div class="brand__thumb">
-                                            <a href="https://www.hubspot.com/"><img class="img-fluid" src="public/web-assets/imgs/brands/home2-companey-brands-img-3.png" alt="image not found"></a>
+                                            <a href="https://www.hubspot.com/"><img class="img-fluid" src="web-assets/imgs/brands/home2-companey-brands-img-3.png" alt="image not found"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".4s">
                                         <div class="brand__thumb">
-                                            <a href="https://app.asana.com/"><img class="img-fluid" src="public/web-assets/imgs/brands/home2-companey-brands-img-4.png" alt="image not found"></a>
+                                            <a href="https://app.asana.com/"><img class="img-fluid" src="web-assets/imgs/brands/home2-companey-brands-img-4.png" alt="image not found"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".5s">
                                         <div class="brand__thumb">
-                                            <a href="https://www.airtasker.com/"><img class="img-fluid" src="public/web-assets/imgs/brands/home2-companey-brands-img-5.png" alt="image not found"></a>
+                                            <a href="https://www.airtasker.com/"><img class="img-fluid" src="web-assets/imgs/brands/home2-companey-brands-img-5.png" alt="image not found"></a>
                                         </div>
                                     </div>
                                 </div>

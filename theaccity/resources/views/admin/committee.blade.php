@@ -1,7 +1,7 @@
 @extends("admin_layouts.app")
 
 @section("style")
-<link href="public/assets/plugins/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+<link href="assets/plugins/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
 @endsection
 
 @section("wrapper")
@@ -183,7 +183,7 @@
                                         <td class="d-inline-block">{{ $comm->designation }}</td>
                                         <td>
                                             @if ($comm->file_name)
-                                            <img src="{{ asset('public/assets/images/committee/' . $comm->file_name) }}" alt="{{ $comm->name }}" width="50">
+                                            <img src="{{ asset('assets/images/committee/' . $comm->file_name) }}" alt="{{ $comm->name }}" width="50">
                                             @endif
                                         </td>
                                         <td>{{ $comm->status ? 'Active' : 'Inactive' }}</td>

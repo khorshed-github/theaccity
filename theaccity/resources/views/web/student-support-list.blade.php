@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 
 <main>
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/bg/supportsbg.jpg">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/bg/supportsbg.jpg">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -34,7 +34,7 @@
                     @foreach($news as $n)
                         <div class="blog__content">
                         <div class="blog__content-thumb">
-                            <img src="{{ asset('public/assets/images/student-support/' . $n->file_name) }}" alt="img not found">
+                            <img src="{{ asset('assets/images/student-support/' . $n->file_name) }}" alt="img not found">
                         </div>
                         <ul class="blog__content-meta mt-20 d-flex wow fadeInLeft animated" data-wow-delay=".2s">
                             <li><a href="#"><svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,9 +48,9 @@
                                 </li>
                             </ul>
                         <div class="blog__content-text mt-20">
-                            <h2 class="blog__content-text-title wow fadeInLeft animated" data-wow-delay=".3s"><a href="#">{{$n->title}}</a></h2>
+                            <h2 class="blog__content-text-title wow fadeInLeft animated" data-wow-delay=".3s"><a href="{{ url('student-support-details/'.$n->id.'/'.Str::slug($n->title)) }}">{{$n->title}}</a></h2>
                             <p class=" wow fadeInLeft animated" data-wow-delay=".8s">{!! $n->title !!}</p>
-                            <a href="student-support-details/{{$n->id}}/{!! Str::slug($n->title) !!}" class="rr-btn mt-40 wow fadeInLeft animated mb-10" data-wow-delay="1s">Learn More
+                            <a href="{{ url('student-support-details/'.$n->id.'/'.Str::slug($n->title)) }}" class="rr-btn mt-40 wow fadeInLeft animated mb-10" data-wow-delay="1s">Learn More
                                 <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M13.7266 5.37891L10.2266 8.87891C9.89844 9.23438 9.32422 9.23438 8.99609 8.87891C8.64062 8.55078 8.64062 7.97656 8.99609 7.64844L10.9922 5.625H0.875C0.382812 5.625 0 5.24219 0 4.75C0 4.23047 0.382812 3.875 0.875 3.875H10.9922L8.99609 1.87891C8.64062 1.55078 8.64062 0.976562 8.99609 0.648438C9.32422 0.292969 9.89844 0.292969 10.2266 0.648438L13.7266 4.14844C14.082 4.47656 14.082 5.05078 13.7266 5.37891Z" fill="white"/>
                                 </svg>
@@ -80,8 +80,8 @@
                             <div class="sidebar-post__wrapper mt-20">
                                 @foreach($visit as $v)
                                 <div class="sidebar-post">
-                                    <a href="#" class="sidebar-post_thumb">
-                                        <img src="{{ asset('public/assets/images/student-support/' . $v->file_name) }}" alt="post">
+                                    <a href="{{ url('student-support-details/'.$v->id.'/'.Str::slug($v->title)) }}" class="sidebar-post_thumb">
+                                        <img src="{{ asset('assets/images/student-support/' . $v->file_name) }}" alt="post">
                                     </a>
 
                                     <div class="sidebar-post_content">

@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 <main>
     
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/breadcrumb/breadcrumb.png">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/breadcrumb/breadcrumb.png">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -42,7 +42,7 @@
                 <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
                     <div class="choice__item mb-30">
                         <!--<div class="choice__item-icon">
-                            <img src="{{ asset('public/assets/images/University/' . $values['file_name']) }}"
+                            <img src="{{ asset('assets/images/University/' . $values['file_name']) }}"
                                             alt="{{ $values['name'];}}">
                         </div>-->
                         <h3 class="choice__item-title"><a href="#">{{ $values['name'];}}</a></h3>

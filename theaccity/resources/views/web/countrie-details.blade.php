@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 <main>
 
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/breadcrumb/breadcrumb.png">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/breadcrumb/breadcrumb.png">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">

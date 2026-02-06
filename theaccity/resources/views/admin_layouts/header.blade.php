@@ -15,24 +15,24 @@
 								</a>
 							</li>
 							<li class="nav-item dropdown dropdown-laungauge d-none ">
-								<a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="avascript:;" data-bs-toggle="dropdown"><img src="public/assets/images/county/02.png" width="22" alt="">
+								<a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="avascript:;" data-bs-toggle="dropdown"><img src="assets/images/county/02.png" width="22" alt="">
 								</a>
 								<ul class="dropdown-menu dropdown-menu-end">
-									<li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="public/assets/images/county/01.png" width="20" alt=""><span class="ms-2">English</span></a>
+									<li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="assets/images/county/01.png" width="20" alt=""><span class="ms-2">English</span></a>
 									</li>
-									<li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="public/assets/images/county/02.png" width="20" alt=""><span class="ms-2">Catalan</span></a>
+									<li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="assets/images/county/02.png" width="20" alt=""><span class="ms-2">Catalan</span></a>
 									</li>
-									<li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="public/assets/images/county/03.png" width="20" alt=""><span class="ms-2">French</span></a>
+									<li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="assets/images/county/03.png" width="20" alt=""><span class="ms-2">French</span></a>
 									</li>
-									<li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="public/assets/images/county/04.png" width="20" alt=""><span class="ms-2">Belize</span></a>
+									<li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="assets/images/county/04.png" width="20" alt=""><span class="ms-2">Belize</span></a>
 									</li>
-									<li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="public/assets/images/county/05.png" width="20" alt=""><span class="ms-2">Colombia</span></a>
+									<li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="assets/images/county/05.png" width="20" alt=""><span class="ms-2">Colombia</span></a>
 									</li>
-									<li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="public/assets/images/county/06.png" width="20" alt=""><span class="ms-2">Spanish</span></a>
+									<li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="assets/images/county/06.png" width="20" alt=""><span class="ms-2">Spanish</span></a>
 									</li>
-									<li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="public/assets/images/county/07.png" width="20" alt=""><span class="ms-2">Georgian</span></a>
+									<li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="assets/images/county/07.png" width="20" alt=""><span class="ms-2">Georgian</span></a>
 									</li>
-									<li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="public/assets/images/county/08.png" width="20" alt=""><span class="ms-2">Hindi</span></a>
+									<li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="assets/images/county/08.png" width="20" alt=""><span class="ms-2">Hindi</span></a>
 									</li>
 								</ul>
 							</li>
@@ -50,7 +50,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/slack.png" width="30" alt="">
+												  <img src="assets/images/app/slack.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">Slack</p>
@@ -62,7 +62,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/behance.png" width="30" alt="">
+												  <img src="assets/images/app/behance.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">Behance</p>
@@ -74,7 +74,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												<img src="public/assets/images/app/google-drive.png" width="30" alt="">
+												<img src="assets/images/app/google-drive.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">Dribble</p>
@@ -86,7 +86,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/outlook.png" width="30" alt="">
+												  <img src="assets/images/app/outlook.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">Outlook</p>
@@ -98,7 +98,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/github.png" width="30" alt="">
+												  <img src="assets/images/app/github.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">GitHub</p>
@@ -110,7 +110,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/stack-overflow.png" width="30" alt="">
+												  <img src="assets/images/app/stack-overflow.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">Stack</p>
@@ -122,7 +122,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/figma.png" width="30" alt="">
+												  <img src="assets/images/app/figma.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">Stack</p>
@@ -134,7 +134,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/twitter.png" width="30" alt="">
+												  <img src="assets/images/app/twitter.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">Twitter</p>
@@ -146,7 +146,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/google-calendar.png" width="30" alt="">
+												  <img src="assets/images/app/google-calendar.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">Calendar</p>
@@ -158,7 +158,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/spotify.png" width="30" alt="">
+												  <img src="assets/images/app/spotify.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">Spotify</p>
@@ -170,7 +170,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/google-photos.png" width="30" alt="">
+												  <img src="assets/images/app/google-photos.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">Photos</p>
@@ -182,7 +182,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/pinterest.png" width="30" alt="">
+												  <img src="assets/images/app/pinterest.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">Photos</p>
@@ -194,7 +194,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/linkedin.png" width="30" alt="">
+												  <img src="assets/images/app/linkedin.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">linkedin</p>
@@ -206,7 +206,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/dribble.png" width="30" alt="">
+												  <img src="assets/images/app/dribble.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">Dribble</p>
@@ -218,7 +218,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/youtube.png" width="30" alt="">
+												  <img src="assets/images/app/youtube.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">YouTube</p>
@@ -230,7 +230,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/google.png" width="30" alt="">
+												  <img src="assets/images/app/google.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">News</p>
@@ -242,7 +242,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/envato.png" width="30" alt="">
+												  <img src="assets/images/app/envato.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">Envato</p>
@@ -254,7 +254,7 @@
 										  <a href="javascript:;">
 											<div class="app-box text-center">
 											  <div class="app-icon">
-												  <img src="public/assets/images/app/safari.png" width="30" alt="">
+												  <img src="assets/images/app/safari.png" width="30" alt="">
 											  </div>
 											  <div class="app-name">
 												  <p class="mb-0 mt-1">Safari</p>
@@ -296,7 +296,7 @@
 											<div class="d-flex align-items-center gap-3">
 												<div class="position-relative">
 													<div class="cart-product rounded-circle bg-light">
-														<img src="public/assets/images/products/11.png" class="" alt="product image">
+														<img src="assets/images/products/11.png" class="" alt="product image">
 													</div>
 												</div>
 												<div class="flex-grow-1">
@@ -314,7 +314,7 @@
 											<div class="d-flex align-items-center gap-3">
 												<div class="position-relative">
 													<div class="cart-product rounded-circle bg-light">
-														<img src="public/assets/images/products/02.png" class="" alt="product image">
+														<img src="assets/images/products/02.png" class="" alt="product image">
 													</div>
 												</div>
 												<div class="flex-grow-1">
@@ -332,7 +332,7 @@
 											<div class="d-flex align-items-center gap-3">
 												<div class="position-relative">
 													<div class="cart-product rounded-circle bg-light">
-														<img src="public/assets/images/products/03.png" class="" alt="product image">
+														<img src="assets/images/products/03.png" class="" alt="product image">
 													</div>
 												</div>
 												<div class="flex-grow-1">
@@ -350,7 +350,7 @@
 											<div class="d-flex align-items-center gap-3">
 												<div class="position-relative">
 													<div class="cart-product rounded-circle bg-light">
-														<img src="public/assets/images/products/04.png" class="" alt="product image">
+														<img src="assets/images/products/04.png" class="" alt="product image">
 													</div>
 												</div>
 												<div class="flex-grow-1">
@@ -368,7 +368,7 @@
 											<div class="d-flex align-items-center gap-3">
 												<div class="position-relative">
 													<div class="cart-product rounded-circle bg-light">
-														<img src="public/assets/images/products/05.png" class="" alt="product image">
+														<img src="assets/images/products/05.png" class="" alt="product image">
 													</div>
 												</div>
 												<div class="flex-grow-1">
@@ -386,7 +386,7 @@
 											<div class="d-flex align-items-center gap-3">
 												<div class="position-relative">
 													<div class="cart-product rounded-circle bg-light">
-														<img src="public/assets/images/products/06.png" class="" alt="product image">
+														<img src="assets/images/products/06.png" class="" alt="product image">
 													</div>
 												</div>
 												<div class="flex-grow-1">
@@ -404,7 +404,7 @@
 											<div class="d-flex align-items-center gap-3">
 												<div class="position-relative">
 													<div class="cart-product rounded-circle bg-light">
-														<img src="public/assets/images/products/07.png" class="" alt="product image">
+														<img src="assets/images/products/07.png" class="" alt="product image">
 													</div>
 												</div>
 												<div class="flex-grow-1">
@@ -422,7 +422,7 @@
 											<div class="d-flex align-items-center gap-3">
 												<div class="position-relative">
 													<div class="cart-product rounded-circle bg-light">
-														<img src="public/assets/images/products/08.png" class="" alt="product image">
+														<img src="assets/images/products/08.png" class="" alt="product image">
 													</div>
 												</div>
 												<div class="flex-grow-1">
@@ -440,7 +440,7 @@
 											<div class="d-flex align-items-center gap-3">
 												<div class="position-relative">
 													<div class="cart-product rounded-circle bg-light">
-														<img src="public/assets/images/products/09.png" class="" alt="product image">
+														<img src="assets/images/products/09.png" class="" alt="product image">
 													</div>
 												</div>
 												<div class="flex-grow-1">
@@ -470,24 +470,24 @@
 					</div>
 					<div class="user-box dropdown px-3">
 						<a class="d-flex align-items-center nav-link dropdown-toggle gap-3 dropdown-toggle-nocaret" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							<img src="public/assets/images/avatars/user.jpg" class="user-img" alt="user avatar">
+							<img src="assets/images/avatars/user.jpg" class="user-img" alt="user avatar">
 							<div class="user-info">
 								<p class="user-name mb-0">{{$globalinfo->username}}</p>
 								<p class="designattion mb-0">{{$globalinfo->number}}</p>								
 							</div>
 						</a>
 						<ul class="dropdown-menu dropdown-menu-end">
-							<li><a class="dropdown-item d-flex align-items-center" href="javascript:;"><i class="bx bx-user fs-5"></i><span>Profile</span></a>
+							<li><a class="dropdown-item d-flex align-items-center" href="{{ url('user-profile') }}"><i class="bx bx-user fs-5"></i><span>Profile</span></a>
 							</li>
-							<li><a class="dropdown-item d-flex align-items-center" href="javascript:;"><i class="bx bx-cog fs-5"></i><span>Settings</span></a>
+							<li><a class="dropdown-item d-flex align-items-center" href="{{ route('admin.settings.index') }}"><i class="bx bx-cog fs-5"></i><span>Settings</span></a>
 							</li>
-							<li><a class="dropdown-item d-flex align-items-center" href="javascript:;"><i class="bx bx-home-circle fs-5"></i><span>Dashboard</span></a>
+							<li><a class="dropdown-item d-flex align-items-center" href="{{ url('admin_dashboard') }}"><i class="bx bx-home-circle fs-5"></i><span>Dashboard</span></a>
 							</li>
 							
 							<li>
 								<div class="dropdown-divider mb-0"></div>
 							</li>
-							<li><a class="dropdown-item d-flex align-items-center" href="/logout"><i class="bx bx-log-out-circle"></i><span>Logout</span></a>
+							<li><a class="dropdown-item d-flex align-items-center" href="{{ route('admin.logout') }}"><i class="bx bx-log-out-circle"></i><span>Logout</span></a>
 							</li>
 						</ul>
 					</div>

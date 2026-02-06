@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 <main>
     
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/breadcrumb/breadcrumb.png">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/breadcrumb/breadcrumb.png">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -37,11 +37,11 @@
                                 <div class="choose-us__media-thumb-img">
                                     <div class="choose-us__media-thumb-img-green-border wow fadeInLeft animated" data-wow-delay=".2s"></div>
                                     <div class="choose-us__media-thumb-img-img wow fadeInLeft animated" data-wow-delay=".2s">
-                                        <img src="public/web-assets/imgs/choose-us/choose-us-left-img.png" alt="img not found">
+                                        <img src="web-assets/imgs/choose-us/choose-us-left-img.png" alt="img not found">
                                     </div>
                                 </div>
                                 <div class="choose-us__media-thumb-circle spin">
-                                    <img src="public/web-assets/imgs/choose-us/choose-us-circle-img.png" alt="img not found">
+                                    <img src="web-assets/imgs/choose-us/choose-us-circle-img.png" alt="img not found">
                                 </div>
                             </div>
                             <div class="choose-us__media-img">
@@ -50,7 +50,7 @@
                                     <p>Years Of <br> Experience</p>
                                 </div>
                                 <div class="choose-us__media-img-pictute wow fadeInLeft animated" data-wow-delay=".5s">
-                                    <img src="public/web-assets/imgs/choose-us/choose-us-right-img.png" alt="img not found">
+                                    <img src="web-assets/imgs/choose-us/choose-us-right-img.png" alt="img not found">
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
 
     <!--process-section-->
     <section class="process__area border-1px mt-30 mb-30 custom-width p-relative overflow-hidden z-1">
-        <div class="process__bg-img" data-background="public/web-assets/imgs/about/process/process-bg.png"></div>
+        <div class="process__bg-img" data-background="web-assets/imgs/about/process/process-bg.png"></div>
         <div class="container">
             <div class="row">
                 <div class="section__title-wrapper text-center mb-20">
@@ -134,7 +134,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="contact-us__widget mb-30" data-tilt>
-                        <img src="public/web-assets/imgs/concact/contact-left-img.png" alt="img not found">
+                        <img src="web-assets/imgs/concact/contact-left-img.png" alt="img not found">
                     </div>
                 </div>
                 <div class="col-lg-6">

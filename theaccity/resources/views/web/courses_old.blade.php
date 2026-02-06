@@ -284,7 +284,7 @@
     cursor: pointer;
 }
     </style>
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/breadcrumb/course-bg.jpg">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/breadcrumb/course-bg.jpg">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -361,7 +361,7 @@
                                         <img 
                                             style="height: 80px; object-fit: contain;"
                                             class="img-thumbnail"
-                                            src="{{ asset('public/assets/images/University/' . $values['file_name']) }}"
+                                            src="{{ asset('assets/images/University/' . $values['file_name']) }}"
                                             alt="{{ $values['name'];}}"
                                         >
                                   </div>
@@ -436,7 +436,7 @@
                             <div class="university-logo">
                                 <img 
                                       class="rounded"
-                                       src="{{ asset('public/assets/images/University/' . $courseValue->university_logo) }}"
+                                       src="{{ asset('assets/images/University/' . $courseValue->university_logo) }}"
                                       alt="{{ $courseValue->university_name }}"
                                     >
                             </div>
@@ -521,7 +521,7 @@
                                  <div class="swiper-slide">
                                     <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".1s">
                                         <div class="brand__thumb">
-                                            <img class="img-fluid" src="{{ asset('public/assets/images/University/' . $values['file_name']) }}" alt="{{ $values['name'];}}">
+                                            <img class="img-fluid" src="{{ asset('assets/images/University/' . $values['file_name']) }}" alt="{{ $values['name'];}}">
                                         </div>
                                     </div>
                                 </div>
@@ -550,7 +550,7 @@
             <div class="">
                 <img style="height: 80px; width: 75%; object-fit: contain; margin-right:10px;" 
                       class="img-thumbnail"
-                      src="public/web-assets/imgs/university/roehampton-logo-trans.svg"
+                      src="web-assets/imgs/university/roehampton-logo-trans.svg"
                       alt="img not found"
                     >
             </div>

@@ -12,11 +12,11 @@
                 <div class="swiper-slide">
                     <div class="banner-4__shapes">
                         <div class="banner-4__shapes-shape-1 upDown" data-animation="pixfix-fadeInLeft" data-delay="1000ms" data-duration="1200ms">
-                            <img src="{{ asset('public/assets/images/sliders/' . $slider->file_name) }}" alt="img not found">
+                            <img src="{{ asset('assets/images/sliders/' . $slider->file_name) }}" alt="img not found">
                         </div>
                     </div>
                     <div class="banner banner__space banner-4__space">
-                        <div class="banner__thumb-bg banner-4__thumb-bg" data-background="{{ asset('public/assets/images/sliders/' . $slider->file_name) }}"></div>
+                        <div class="banner__thumb-bg banner-4__thumb-bg" data-background="{{ asset('assets/images/sliders/' . $slider->file_name) }}"></div>
                         <div class="container">
                             <div class="row">
                                 <div class="col-12">
@@ -51,20 +51,20 @@
                         <div class="about-us-2__wrapper-media about-4__wrapper-media overflow-hidden d-flex">
                             <div class="img-wrap">
                                 <div class="about-us-2__wrapper-media-image-1">
-                                    <img src="public/web-assets/imgs/home-4/about-4-img-1.png" class="img-fluid"  alt="image not found">
+                                    <img src="web-assets/imgs/home-4/about-4-img-1.png" class="img-fluid"  alt="image not found">
                                 </div>
                             </div>
                             <div class="about-us-2__wrapper-media-image-2">
-                                <img class="leftRight" src="public/web-assets/imgs/home-4/about-4-plane-img.png" alt="image not found">
+                                <img class="leftRight" src="web-assets/imgs/home-4/about-4-plane-img.png" alt="image not found">
                             </div>
                         </div>
                         <div class="about-us-2__wrapper-media about-4__wrapper-media d-flex">
                             <div class="about-us-2__wrapper-media__counter">
-                                <h3 class="about-us-2__wrapper-media__counter-title"><span class="odometer" data-count="15">0</span>+</h3>
+                                <h3 class="about-us-2__wrapper-media__counter-title"><span class="odometer" data-count="{{ $settings['years_of_experience'] ?? '15' }}">0</span>+</h3>
                                 <p>Years Of Experience</p>
                             </div>
                             <div class="about-us-2__wrapper-media-image-3 img-wrap">
-                                <img src="public/web-assets/imgs/home-4/about-4-img-2.png" class="img-fluid"  alt="image not found">
+                                <img src="web-assets/imgs/home-4/about-4-img-2.png" class="img-fluid"  alt="image not found">
                             </div>
                         </div>
                     </div>
@@ -73,22 +73,22 @@
                     <div class="about__content about-4__content">
                         <div class="section__title-wrapper mb-20">
                             <!--<h6 class="section__title-wrapper-black-subtitle mb-10 wow fadeInLeft animated" data-wow-delay=".4s">About Us </h6>-->
-                            <h2 class="section__title-wrapper-title wow fadeInLeft animated" data-wow-delay=".5s">About Us</h2>
+                            <h2 class="section__title-wrapper-title wow fadeInLeft animated" data-wow-delay=".5s">{{ $settings['about_heading'] ?? 'About Us' }}</h2>
                         </div>
-                        <p class=" wow fadeInLeft animated" data-wow-delay=".8s">At ACCity, we are dedicated to connecting ambitious students from across the globe with world-class educational opportunities in the UK and beyond. Based in London, we specialise in both UK-home and international student recruitment for higher education institutions, giving each applicant personalised, expert guidance every step of the way.</p>
+                        <p class=" wow fadeInLeft animated" data-wow-delay=".8s">{{ $settings['about_description'] ?? 'At ACCity, we are dedicated to connecting ambitious students from across the globe with world-class educational opportunities.' }}</p>
                         <div class="about__box about-4__box mt-20">
                             <div class="about__box-item about-4__box-item mb-15 wow fadeInLeft animated" data-wow-delay=".6s">
                                 
                                 <div class="text">
                                     <h4 class="about__box-item-title">Our Mission</h4>
-                                    <p>Our mission is to empower students—both from the UK and internationally—to unlock their full academic and professional potential by providing transparent, high-quality recruitment and advisory support.</p>
+                                    <p>{{ $settings['about_mission'] ?? 'Our mission is to empower students to unlock their full academic and professional potential.' }}</p>
                                 </div>
                             </div>
                             <div class="about__box-item about-4__box-item wow fadeInLeft animated" data-wow-delay=".7s">
                                 
                                 <div class="text">
                                     <h4 class="about__box-item-title">Our Vision</h4>
-                                    <p>We envision a future in which every student, from every country, has the opportunity to access high-quality higher education—unconstrained by geography, income or background. At ACCity we aim to be the trusted global bridge between student ambition and institutional opportunity.</p>
+                                    <p>{{ $settings['about_vision'] ?? 'We envision a future in which every student has access to high-quality higher education.' }}</p>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +104,7 @@
 
     <!--cta 4-->
     <section class="cta-4">
-        <div class="cta-4__bg" data-background="public/web-assets/imgs/home-4/cta-4.png"></div>
+        <div class="cta-4__bg" data-background="web-assets/imgs/home-4/cta-4.png"></div>
         <div class="container">
             <div class="row">
                 <div class="cta-4__wrapper">
@@ -128,7 +128,7 @@
         <div class="container">
             <div class="visit__wrapper">
                 <div class="visit__shape">
-                    <img src="public/web-assets/imgs/home-4/visit-right-shape.png" alt="img not found">
+                    <img src="web-assets/imgs/home-4/visit-right-shape.png" alt="img not found">
                 </div>
                 <div class="visit__wrapper-countries">
                     <div class="section__title-wrapper mb-20">
@@ -138,7 +138,7 @@
                     <div class="visit__wrapper-countries-wrap" style="margin-bottom: 10px !important; gap: 20px !important;">
                          @foreach($university as $unv)
                          <div class="visit__wrapper-countries-wrap-box img-1">
-                            <!--<img class="img-fluid" src="{{ asset('public/assets/images/University/' . $unv->file_name) }}" alt="{{ $unv['name'] }}">-->
+                            <!--<img class="img-fluid" src="{{ asset('assets/images/University/' . $unv->file_name) }}" alt="{{ $unv['name'] }}">-->
                             <h3 style="border: 1px dotted #ddd;
                                         padding: 5px;
                                         border-radius: 10px;
@@ -153,7 +153,7 @@
     <!--team-4-->
     <section class="team-4__area section-space bg-gray p-relative">
         <div class="team-4__shape">
-            <img src="public/web-assets/imgs/home-4/team-4-bg-shape.png" alt="img not found">
+            <img src="web-assets/imgs/home-4/team-4-bg-shape.png" alt="img not found">
         </div>
         <div class="container">
             <div class="row">
@@ -171,7 +171,7 @@
                     <div class="team-4__item mb-30">
                         <div class="team-4__item-thumb">
                             <div class="team-4__item-thumb-overlay"></div>
-                            <img src="{{ asset('public/assets/images/sliders/' . $cont->file_name) }}" alt="img not found">
+                            <img src="{{ asset('assets/images/sliders/' . $cont->file_name) }}" alt="img not found">
                             <div class="team-4__item-thumb-social">
                                 <ul>
                                     <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
@@ -197,52 +197,31 @@
     <section class="latest-counter__area overflow-hidden p-relative z-1 pt-100 pb-90 pt-xs-30 pb-xs-60 latest-counter-bg">
         <div class="latest-counter__shapes">
             <div class="shape-1 upDown">
-                <img src="public/web-assets/imgs/home-5/counter-plane-img.png" alt="img not found">
+                <img src="web-assets/imgs/home-5/counter-plane-img.png" alt="img not found">
             </div>
             <div class="shape-2">
-                <img src="public/web-assets/imgs/home-5/counter-bg-shape.png" alt="img not found">
+                <img src="web-assets/imgs/home-5/counter-bg-shape.png" alt="img not found">
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                   <div class="latest-counter__counter-box wow fadeInLeft animated" data-wow-delay="1s">
-                        <div class="latest-counter__content text-center">
-                            <div class="latest-counter__content__counter-img img-1 mt-40">
-                                <img src="public/web-assets/imgs/home-5/counter-icon-1.png" alt="img not found">
+                @if(isset($statistics) && $statistics->count() > 0)
+                    @foreach($statistics as $key => $stat)
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                       <div class="latest-counter__counter-box wow fadeInLeft animated" data-wow-delay="1s">
+                            <div class="latest-counter__content text-center">
+                                <div class="latest-counter__content__counter-img {{ $key == 0 ? 'mt-40' : '' }}">
+                                    @if($stat->icon)
+                                        <img src="{{ asset($stat->icon) }}" alt="{{ $stat->label }}">
+                                    @endif
+                                </div>
+                                <h5><span class="odometer" data-count="{{ $stat->value }}">0</span>{{ $stat->suffix }}</h5>
+                                <span>{{ $stat->label }}</span>
                             </div>
-                            <h5><span class="odometer" data-count="200">0</span>+</h5>
-                            <span>Happy Clients</span>
-                        </div>
-                   </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                    <div class="latest-counter__content text-center wow fadeInLeft animated" data-wow-delay="1.2s">
-                        <div class="latest-counter__content__counter-img img-2">
-                            <img src="public/web-assets/imgs/home-5/counter-icon-2.png" alt="img not found">
-                        </div>
-                        <h5><span class="odometer" data-count="99">0</span>+</h5>
-                        <span>Successful Rates </span>
+                       </div>
                     </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                    <div class="latest-counter__content text-center wow fadeInLeft animated" data-wow-delay="1.4s">
-                        <div class="latest-counter__content__counter-img img-3">
-                            <img src="public/web-assets/imgs/home-5/counter-icon-3.png" alt="img not found">
-                        </div>
-                        <h5><span class="odometer" data-count="15">0</span>k+</h5>
-                        <span>Visa Prosses</span>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                    <div class="latest-counter__content text-center wow fadeInLeft animated" data-wow-delay="1.4s">
-                        <div class="latest-counter__content__counter-img img-4">
-                            <img src="public/web-assets/imgs/home-5/counter-icon-4.png" alt="img not found">
-                        </div>
-                        <h5><span class="odometer" data-count="600">0</span>+</h5>
-                        <span>Immigration</span>
-                    </div>
-                </div>
+                    @endforeach
+                @endif
             </div>
         </div>
     </section>
@@ -254,10 +233,10 @@
                 <div class="col-lg-6">
                     <div class="faq-5__thumb">
                         <div class="faq-5__thumb-shape upDown-bottom">
-                            <img src="public/web-assets/imgs/home-5/faq-circle-plane-shape.png" alt="img not found">
+                            <img src="web-assets/imgs/home-5/faq-circle-plane-shape.png" alt="img not found">
                         </div>
                         <div class="faq-5__thumb-media">
-                            <img src="public/web-assets/imgs/home-5/faq-right-img.png" alt="img not found">
+                            <img src="web-assets/imgs/home-5/faq-right-img.png" alt="img not found">
                         </div>
                     </div>
                 </div>
@@ -291,7 +270,7 @@
     </section>
 
     <section class="testi-5__area section-space p-relative testi-bg z-1">
-        <div class="testi-5__bg-img" data-background="public/web-assets/imgs/home-5/testi-5-bg-img.png"></div>
+        <div class="testi-5__bg-img" data-background="web-assets/imgs/home-5/testi-5-bg-img.png"></div>
         <div class="container">
             <div class="row  mb-minus-65">
                 <div class="col-12">
@@ -301,7 +280,7 @@
                             <div class="swiper-slide text-center mb-65">
                                 <div class="testi-5__item">
                                     <div class="testi-5__item-thumb">
-                                        <img src="{{ asset('public/assets/images/sliders/' . $testi->file_name) }}" alt="img not found">
+                                        <img src="{{ asset('assets/images/sliders/' . $testi->file_name) }}" alt="img not found">
                                     </div>
                                     <!--<h4 class="testi-5__item-title"><a href="#">Name</a></h4>-->
                                     <span class="testi-5__item-subtitle">{{ $testi['title'] }}</span>
@@ -339,7 +318,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="blog-4__item mb-30">
                         <div class="blog-4__item-thumb">
-                            <img src="{{ asset('public/assets/images/news/' . $blog->file_name) }}" alt="img not found">
+                            <img src="{{ asset('assets/images/news/' . $blog->file_name) }}" alt="img not found">
                             <div class="blog-4__item-thumb-text">
                                 <span>{{ $blog->created_at->format('d F, Y') }}</span>
                             </div>
@@ -375,7 +354,7 @@
                                         <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".1s">
                                             <div class="brand__thumb choice__item">
                                                 <a href="#">{{ $unv['name'] }}
-                                                   <!-- <img class="img-fluid" src="{{ asset('public/assets/images/University/' . $unv->file_name) }}" alt="{{ $unv['name'] }}">-->
+                                                   <!-- <img class="img-fluid" src="{{ asset('assets/images/University/' . $unv->file_name) }}" alt="{{ $unv['name'] }}">-->
                                                 </a>
                                             </div>
                                         </div>

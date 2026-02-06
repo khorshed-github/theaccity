@@ -551,6 +551,12 @@ Route::get('data-protection', function () {
     ->with('dps',$dps);
     });
 
+// Student Auth Routes
+Route::get('/student/login', [App\Http\Controllers\StudentAuthController::class, 'showLogin'])->name('student.login');
+Route::post('/student/login', [App\Http\Controllers\StudentAuthController::class, 'processLogin'])->name('student.login.post');
+Route::post('/student/register', [App\Http\Controllers\StudentAuthController::class, 'processRegister'])->name('student.register.post');
+Route::get('/student/logout', [App\Http\Controllers\StudentAuthController::class, 'logout'])->name('student.logout');
+
 
 
 

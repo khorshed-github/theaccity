@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 <main>
 
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/breadcrumb/breadcrumb.png">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/breadcrumb/breadcrumb.png">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -31,7 +31,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-md-6 col-sm-6">
                     <div class="teamdetail__media" data-tilt>
-                        <img src="public/web-assets/imgs/team-details/team-details-left-img.png" alt="img not found">
+                        <img src="web-assets/imgs/team-details/team-details-left-img.png" alt="img not found">
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-6 col-sm-6">

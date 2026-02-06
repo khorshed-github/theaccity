@@ -5,7 +5,7 @@
 <main>
 
 
-  <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/responsibility/data-protection.jpg">
+  <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/responsibility/data-protection.jpg">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -34,10 +34,10 @@
                 <div class="col-lg-6">
                     <div class="faq-5__thumb">
                         <div class="faq-5__thumb-shape upDown-bottom">
-                            <img src="public/web-assets/responsibility/data-protection.jpg" alt="img not found">
+                            <img src="web-assets/responsibility/data-protection.jpg" alt="img not found">
                         </div>
                         <div class="faq-5__thumb-media">
-                            <img src="public/web-assets/responsibility/data-protection.jpg" alt="img not found">
+                            <img src="web-assets/responsibility/data-protection.jpg" alt="img not found">
                         </div>
                     </div>
                 </div>

@@ -6,7 +6,7 @@
 
 @if(!empty($getnews['title']))
 
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/breadcrumb/breadcrumb.png">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/breadcrumb/breadcrumb.png">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -53,7 +53,7 @@
                     
                     <div class="coaching-details__bottom">
                         <div class="coaching-details__bottom-img mb-30" data-tilt>
-                            <img class="img-fluid" src="{{ asset('public/assets/images/news/' . $getnews['file_name']) }}" alt="img not found">
+                            <img class="img-fluid" src="{{ asset('assets/images/news/' . $getnews['file_name']) }}" alt="img not found">
                         </div>
                         <h3 class="mb-20 wow fadeInLeft animated" data-wow-delay=".8s">{{ $getnews['title']}}</h3>
                         <p class=" wow fadeInLeft animated" data-wow-delay=".9s">{!! $getnews['shot_desc'] !!}</p>
@@ -65,7 +65,7 @@
     
     @else
     
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/breadcrumb/news-bg.jpg">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/breadcrumb/news-bg.jpg">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -94,7 +94,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="coaching__item mb-30 d-flex align-items-center wow fadeInLeft animated" data-wow-delay=".2s">
                         <div class="coaching__item-midea" data-tilt>
-                            <img class="img-fluid" src="{{ asset('public/assets/images/news/' . $new['file_name']) }}" alt="img not found">
+                            <img class="img-fluid" src="{{ asset('assets/images/news/' . $new['file_name']) }}" alt="img not found">
                         </div>
                         <div class="coaching__item-content">
                             <h4 class="coaching__item-content-title mb-20">{!! $new['type'] !!}</h4>
@@ -123,7 +123,7 @@
                                     <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".1s">
                                         <div class="brand__thumb choice__item">
                                             {{ $values['name'];}}
-                                            <!--<img class="img-fluid" src="{{ asset('public/assets/images/University/' . $values['file_name']) }}" alt="{{ $values['name'];}}">-->
+                                            <!--<img class="img-fluid" src="{{ asset('assets/images/University/' . $values['file_name']) }}" alt="{{ $values['name'];}}">-->
                                         </div>
                                     </div>
                                 </div>

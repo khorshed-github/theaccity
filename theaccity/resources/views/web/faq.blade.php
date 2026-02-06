@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 <main>
 
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/breadcrumb/breadcrumb.png">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/breadcrumb/breadcrumb.png">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -183,35 +183,35 @@
                                 <div class="swiper-slide">
                                     <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".1s">
                                         <div class="brand__thumb">
-                                            <a href="https://segment.com/"><img class="img-fluid" src="public/web-assets/imgs/brands/home2-companey-brands-img-1.png" alt="image not found"></a>
+                                            <a href="https://segment.com/"><img class="img-fluid" src="web-assets/imgs/brands/home2-companey-brands-img-1.png" alt="image not found"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".2s">
                                         <div class="brand__thumb">
-                                            <a href="https://www.splunk.com/"><img class="img-fluid" src="public/web-assets/imgs/brands/home2-companey-brands-img-2.png" alt="image not found"></a>
+                                            <a href="https://www.splunk.com/"><img class="img-fluid" src="web-assets/imgs/brands/home2-companey-brands-img-2.png" alt="image not found"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".3s">
                                         <div class="brand__thumb">
-                                            <a href="https://www.hubspot.com/"><img class="img-fluid" src="public/web-assets/imgs/brands/home2-companey-brands-img-3.png" alt="image not found"></a>
+                                            <a href="https://www.hubspot.com/"><img class="img-fluid" src="web-assets/imgs/brands/home2-companey-brands-img-3.png" alt="image not found"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".4s">
                                         <div class="brand__thumb">
-                                            <a href="https://app.asana.com/"><img class="img-fluid" src="public/web-assets/imgs/brands/home2-companey-brands-img-4.png" alt="image not found"></a>
+                                            <a href="https://app.asana.com/"><img class="img-fluid" src="web-assets/imgs/brands/home2-companey-brands-img-4.png" alt="image not found"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".5s">
                                         <div class="brand__thumb">
-                                            <a href="https://www.airtasker.com/"><img class="img-fluid" src="public/web-assets/imgs/brands/home2-companey-brands-img-5.png" alt="image not found"></a>
+                                            <a href="https://www.airtasker.com/"><img class="img-fluid" src="web-assets/imgs/brands/home2-companey-brands-img-5.png" alt="image not found"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -231,7 +231,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="faq__media" data-tilt>
-                            <img src="public/web-assets/imgs/faq/faq-info-img.png" alt="img not found">
+                            <img src="web-assets/imgs/faq/faq-info-img.png" alt="img not found">
                         </div>
                     </div>
                     <div class="col-md-8">
@@ -256,7 +256,7 @@
                                 <a href="contact" class="rr-btn2 mt-25 wow fadeInLeft animated" data-wow-delay=".5s">Contact us <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                             <div class="faq__content-right-img  wow fadeInLeft animated" data-wow-delay=".6s">
-                                <img src="public/web-assets/imgs/faq/faq-left-img.png" alt="img not found">
+                                <img src="web-assets/imgs/faq/faq-left-img.png" alt="img not found">
                             </div>
                         </div>
                         <div class="row counter__bg mt-30 mb-minus-20">

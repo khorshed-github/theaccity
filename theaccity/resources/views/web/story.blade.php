@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 <main>
 
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/breadcrumb/breadcrumb.png">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/breadcrumb/breadcrumb.png">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -43,7 +43,7 @@
                         </div>
                         <div class="story__content-details d-flex mt-40">
                             <div class="story__content-details-img">
-                                <img src="public/web-assets/imgs/story-img/story-cricle-img1.png" alt="img not found">
+                                <img src="web-assets/imgs/story-img/story-cricle-img1.png" alt="img not found">
                             </div>
                             <div class="story__content-details-name">
                                 <h6>Albert Flores</h6>
@@ -64,7 +64,7 @@
                         </div>
                         <div class="story__content-details d-flex mt-40">
                             <div class="story__content-details-img">
-                                <img src="public/web-assets/imgs/story-img/story-cricle-img2.png" alt="img not found">
+                                <img src="web-assets/imgs/story-img/story-cricle-img2.png" alt="img not found">
                             </div>
                             <div class="story__content-details-name">
                                 <h6>Eleanor Pena</h6>
@@ -85,7 +85,7 @@
                         </div>
                         <div class="story__content-details d-flex mt-40">
                             <div class="story__content-details-img">
-                                <img src="public/web-assets/imgs/story-img/story-cricle-img3.png" alt="img not found">
+                                <img src="web-assets/imgs/story-img/story-cricle-img3.png" alt="img not found">
                             </div>
                             <div class="story__content-details-name">
                                 <h6>Ronald Richards</h6>
@@ -106,7 +106,7 @@
                         </div>
                         <div class="story__content-details d-flex mt-40">
                             <div class="story__content-details-img">
-                                <img src="public/web-assets/imgs/story-img/story-cricle-img4.png" alt="img not found">
+                                <img src="web-assets/imgs/story-img/story-cricle-img4.png" alt="img not found">
                             </div>
                             <div class="story__content-details-name">
                                 <h6>Savannah Nguyen</h6>
@@ -127,7 +127,7 @@
                         </div>
                         <div class="story__content-details d-flex mt-40">
                             <div class="story__content-details-img">
-                                <img src="public/web-assets/imgs/story-img/story-cricle-img5.png" alt="img not found">
+                                <img src="web-assets/imgs/story-img/story-cricle-img5.png" alt="img not found">
                             </div>
                             <div class="story__content-details-name">
                                 <h6>Jerome Bell</h6>
@@ -148,7 +148,7 @@
                         </div>
                         <div class="story__content-details d-flex mt-40">
                             <div class="story__content-details-img">
-                                <img src="public/web-assets/imgs/story-img/story-cricle-img6.png" alt="img not found">
+                                <img src="web-assets/imgs/story-img/story-cricle-img6.png" alt="img not found">
                             </div>
                             <div class="story__content-details-name">
                                 <h6>Annette Black</h6>

@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 
 <main>
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/bg/supportsbg.jpg">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/bg/supportsbg.jpg">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -34,7 +34,7 @@
                     @if($news)
                     <div class="blog__content">
                         <div class="blog__content-thumb">
-                            <img src="{{ asset('public/assets/images/student-support/' . $news->file_name) }}" alt="img not found">
+                            <img src="{{ asset('assets/images/student-support/' . $news->file_name) }}" alt="img not found">
                         </div>
                         <ul class="blog__content-meta mt-20 d-flex wow fadeInLeft animated" data-wow-delay=".2s">
                             <li><a href="#"><svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -55,10 +55,10 @@
                     
                     <div class="blog-details__social d-flex justify-content-between mt-50">
                         <div class="blog-details__social-tags wow fadeInLeft animated" data-wow-delay=".8s">
-                            <a href="blog-details">Admission</a>
-                            <a href="blog-details">Consultancy</a>
-                            <a href="blog-details">Travel</a>
-                            <a href="blog-details">Visa Processing</a>
+                            <a href="{{ url('blog-details') }}">Admission</a>
+                            <a href="{{ url('blog-details') }}">Consultancy</a>
+                            <a href="{{ url('blog-details') }}">Travel</a>
+                            <a href="{{ url('blog-details') }}">Visa Processing</a>
                         </div>
                         <div class="blog-details__social-media wow fadeInLeft animated" data-wow-delay=".9s">
                             <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
@@ -92,8 +92,8 @@
                                 
                                 @foreach($visit as $v)
                                 <div class="sidebar-post">
-                                    <a href="#" class="sidebar-post_thumb">
-                                        <img src="{{ asset('public/assets/images/student-support/' . $v->file_name) }}" alt="post">
+                                    <a href="{{ url('student-support-details/'.$v->id.'/'.Str::slug($v->title)) }}" class="sidebar-post_thumb">
+                                        <img src="{{ asset('assets/images/student-support/' . $v->file_name) }}" alt="post">
                                     </a>
 
                                     <div class="sidebar-post_content">
@@ -106,7 +106,7 @@
                                             </li>
                                         </ul>
 
-                                        <a href="student-support-details/{{$v->id}}/{!!Str::slug($v->title) !!}"><h3 class="title rr-fw-medium">{!! $v->title !!}</h3></a>
+                                        <a href="{{ url('student-support-details/'.$v->id.'/'.Str::slug($v->title)) }}"><h3 class="title rr-fw-medium">{!! $v->title !!}</h3></a>
                                     </div>
                                 </div>
                                 @endforeach

@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 <main>
 
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/breadcrumb/breadcrumb.png">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/breadcrumb/breadcrumb.png">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -35,9 +35,9 @@
                     <div class="visa-offer__item mb-30 wow fadeInLeft animated" data-wow-delay=".2s">
                         <div class="visa-offer__item-thumb">
                             <div class="visa-offer__item-thumb-small-img">
-                                <img src="public/web-assets/imgs/visa/visa-offers/visa-offer-small-img1.png" alt="img not found">
+                                <img src="web-assets/imgs/visa/visa-offers/visa-offer-small-img1.png" alt="img not found">
                             </div>
-                            <img src="public/web-assets/imgs/visa/visa-offers/visa-offer-img1.png" alt="img not found">
+                            <img src="web-assets/imgs/visa/visa-offers/visa-offer-img1.png" alt="img not found">
                         </div>
                         <div class="visa-offer__item-content">
                             <div class="visa-offer__item-content-text">
@@ -59,9 +59,9 @@
                     <div class="visa-offer__item mb-30 wow fadeInLeft animated" data-wow-delay=".3s">
                         <div class="visa-offer__item-thumb">
                             <div class="visa-offer__item-thumb-small-img">
-                                <img src="public/web-assets/imgs/visa/visa-offers/visa-offer-small-img2.png" alt="img not found">
+                                <img src="web-assets/imgs/visa/visa-offers/visa-offer-small-img2.png" alt="img not found">
                             </div>
-                            <img src="public/web-assets/imgs/visa/visa-offers/visa-offer-img2.png" alt="img not found">
+                            <img src="web-assets/imgs/visa/visa-offers/visa-offer-img2.png" alt="img not found">
                         </div>
                         <div class="visa-offer__item-content">
                             <div class="visa-offer__item-content-text">
@@ -83,9 +83,9 @@
                     <div class="visa-offer__item mb-30 wow fadeInLeft animated" data-wow-delay=".4s">
                         <div class="visa-offer__item-thumb">
                             <div class="visa-offer__item-thumb-small-img">
-                                <img src="public/web-assets/imgs/visa/visa-offers/visa-offer-small-img3.png" alt="img not found">
+                                <img src="web-assets/imgs/visa/visa-offers/visa-offer-small-img3.png" alt="img not found">
                             </div>
-                            <img src="public/web-assets/imgs/visa/visa-offers/visa-offer-img3.png" alt="img not found">
+                            <img src="web-assets/imgs/visa/visa-offers/visa-offer-img3.png" alt="img not found">
                         </div>
                         <div class="visa-offer__item-content">
                             <div class="visa-offer__item-content-text">
@@ -107,9 +107,9 @@
                     <div class="visa-offer__item mb-30 wow fadeInLeft animated" data-wow-delay=".5s">
                         <div class="visa-offer__item-thumb">
                             <div class="visa-offer__item-thumb-small-img">
-                                <img src="public/web-assets/imgs/visa/visa-offers/visa-offer-small-img4.png" alt="img not found">
+                                <img src="web-assets/imgs/visa/visa-offers/visa-offer-small-img4.png" alt="img not found">
                             </div>
-                            <img src="public/web-assets/imgs/visa/visa-offers/visa-offer-img4.png" alt="img not found">
+                            <img src="web-assets/imgs/visa/visa-offers/visa-offer-img4.png" alt="img not found">
                         </div>
                         <div class="visa-offer__item-content">
                             <div class="visa-offer__item-content-text">
@@ -131,9 +131,9 @@
                     <div class="visa-offer__item mb-30 wow fadeInLeft animated" data-wow-delay=".6s">
                         <div class="visa-offer__item-thumb">
                             <div class="visa-offer__item-thumb-small-img">
-                                <img src="public/web-assets/imgs/visa/visa-offers/visa-offer-small-img5.png" alt="img not found">
+                                <img src="web-assets/imgs/visa/visa-offers/visa-offer-small-img5.png" alt="img not found">
                             </div>
-                            <img src="public/web-assets/imgs/visa/visa-offers/visa-offer-img5.png" alt="img not found">
+                            <img src="web-assets/imgs/visa/visa-offers/visa-offer-img5.png" alt="img not found">
                         </div>
                         <div class="visa-offer__item-content">
                             <div class="visa-offer__item-content-text">
@@ -155,9 +155,9 @@
                     <div class="visa-offer__item mb-30 wow fadeInLeft animated" data-wow-delay=".7s">
                         <div class="visa-offer__item-thumb">
                             <div class="visa-offer__item-thumb-small-img img">
-                                <img src="public/web-assets/imgs/visa/visa-offers/visa-offer-small-img6.png" alt="img not found">
+                                <img src="web-assets/imgs/visa/visa-offers/visa-offer-small-img6.png" alt="img not found">
                             </div>
-                            <img src="public/web-assets/imgs/visa/visa-offers/visa-offer-img6.png" alt="img not found">
+                            <img src="web-assets/imgs/visa/visa-offers/visa-offer-img6.png" alt="img not found">
                         </div>
                         <div class="visa-offer__item-content">
                             <div class="visa-offer__item-content-text">

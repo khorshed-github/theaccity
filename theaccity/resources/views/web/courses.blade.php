@@ -188,12 +188,19 @@
                                      data-intakes='@json($courseValue->intakes, JSON_HEX_APOS)'>
                                     <div class="d-flex justify-content-between align-items-center">
                                     <div>
+                                        @if(Auth::guard('student')->check())
                                         <a href="#"
                                            data-bs-toggle="modal" 
                                            data-bs-target="#courseDetailsModal_{{ $courseValue->id }}" 
                                            class="course-title text-decoration-none fw-bold text-dark">
                                            {{ $courseValue->title }}
                                         </a>
+                                        @else
+                                        <a href="{{ route('student.login') }}"
+                                           class="course-title text-decoration-none fw-bold text-dark">
+                                           {{ $courseValue->title }}
+                                        </a>
+                                        @endif
                                         <div class="d-flex flex-wrap"style="margin-top: -10px;">
                                             @foreach($courseValue->locations as $loc)
                                                 <div class="me-2" style="font-size:13px;">
@@ -204,13 +211,19 @@
                                     </div>
                                     <div>
                                         
-                                        <a class="btn btn-sm btn-info" 
+                                        @if(Auth::guard('student')->check())
+                                        <a class="btn btn-sm btn-info course-title text-decoration-none fw-bold text-dark" 
                                            href="#" 
                                            data-bs-toggle="modal" 
-                                           data-bs-target="#courseDetailsModal_{{ $courseValue->id }}" 
-                                           class="course-title text-decoration-none fw-bold text-dark">
+                                           data-bs-target="#courseDetailsModal_{{ $courseValue->id }}">
                                            More Details
                                         </a>
+                                        @else
+                                        <a class="btn btn-sm btn-info course-title text-decoration-none fw-bold text-dark" 
+                                           href="{{ route('student.login') }}">
+                                           More Details
+                                        </a>
+                                        @endif
                                         <a class="btn btn-sm btn-danger" 
                                            href="#" 
                                            data-bs-toggle="modal" 
@@ -240,7 +253,7 @@
                                  <div class="swiper-slide">
                                     <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".1s">
                                         <div class="brand__thumb choice__item"> {{ $values['name'];}}
-                                            <!--<img class="img-fluid" src="{{ asset('public/assets/images/University/' . $values['file_name']) }}" alt="{{ $values['name'];}}">-->
+                                            <!--<img class="img-fluid" src="{{ asset('assets/images/University/' . $values['file_name']) }}" alt="{{ $values['name'];}}">-->
                                         </div>
                                     </div>
                                 </div>

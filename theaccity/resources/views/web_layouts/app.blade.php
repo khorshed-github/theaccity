@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 <head>
-    <base href="https://theaccity.com">
+    <!-- <base href="{{ url('/') }}"> -->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Theaccity - Academic and Visa Consulting</title>
@@ -10,22 +10,23 @@
     <meta name="author" content="https://www.theaccity.com/" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="public/web-assets/imgs/logo/accity-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="web-assets/imgs/logo/accity-icon.png">
     
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sofia&amp;display=swap" rel="stylesheet">
     <!-- CSS here -->
-    <link rel="stylesheet" href="public/web-assets/css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="public/web-assets/css/vendor/animate.min.css">
-    <link rel="stylesheet" href="public/web-assets/css/vendor/odometer.min.css">
-    <link rel="stylesheet" href="public/web-assets/css/plugins/swiper.min.css">
-    <link rel="stylesheet" href="public/web-assets/css/vendor/magnific-popup.css">
-    <link rel="stylesheet" href="public/web-assets/css/vendor/fontawesome-pro.css"> 
-    <link rel="stylesheet" href="public/web-assets/css/vendor/spacing.css">
-    <link rel="stylesheet" href="public/web-assets/css/vendor/custom-font.css">
-    <link rel="stylesheet" href="public/web-assets/css/main.css">
+    <link rel="stylesheet" href="{{ asset('web-assets/css/vendor/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('web-assets/css/vendor/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('web-assets/css/vendor/odometer.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('web-assets/css/plugins/swiper.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('web-assets/css/vendor/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('web-assets/css/vendor/fontawesome-pro.css') }}"> 
+    <link rel="stylesheet" href="{{ asset('web-assets/css/vendor/spacing.css') }}">
+    <link rel="stylesheet" href="{{ asset('web-assets/css/vendor/custom-font.css') }}">
+    <link rel="stylesheet" href="{{ asset('web-assets/css/main.css') }}">
 </head>
+
 <body>
 <!-- preloader start -->
 <div id="preloader">
@@ -53,8 +54,8 @@
             <div class="offcanvas__content">
                 <div class="offcanvas__top d-flex justify-content-between align-items-center">
                     <div class="offcanvas__logo">
-                        <a href="{{ '/' }}">
-                            <img src="public/web-assets/imgs/logo/theaccity.png" alt="logo not found">
+                        <a href="{{ url('/') }}">
+                            <img src="{{ asset($settings['site_logo'] ?? 'web-assets/imgs/logo/theaccity.png') }}" alt="{{ $settings['site_name'] ?? 'Theaccity' }}">
                         </a>
                     </div>
                     <div class="offcanvas__close">
@@ -69,10 +70,10 @@
                 <div class="offcanvas__social">
                     <h3 class="offcanvas__title mb-20">Subscribe & Follow</h3>
                     <ul>
-                        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="https://pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                        <li><a href="https://youtube.com/"><i class="fab fa-youtube"></i></a></li>
-                        <li><a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="{{ $settings['facebook_url'] ?? 'https://www.facebook.com/' }}"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="{{ $settings['pinterest_url'] ?? 'https://pinterest.com/' }}"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                        <li><a href="{{ $settings['instagram_url'] ?? 'https://instagram.com/' }}"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="{{ $settings['linkedin_url'] ?? 'https://linkedin.com/' }}"><i class="fab fa-linkedin"></i></a></li>
                     </ul>
                 </div>
                 <div class="offcanvas__btn d-sm-none">
@@ -102,7 +103,7 @@
 <!-- Footer area start -->
 <footer>
     <section class="footer__area-common dark-green overflow-hidden position-relative z-1"
-     data-background="public/web-assets/imgs/footer/footer1-bg-img.png">
+     data-background="{{ asset('web-assets/imgs/footer/footer1-bg-img.png') }}">
         <div class="footer__border-bottom">
             <div class="container">
                 <div class="footer-top d-flex justify-content-between pt-50 pb-50">
@@ -143,21 +144,21 @@
             <div class="row mb-minus-40 footer-wrap">
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="footer__widget footer__widget-item-1 wow fadeInLeft animated" data-wow-delay=".2s">
-                        <span class="footer__widget-item-1-location"><img src="public/web-assets/imgs/footer/footer1-bg-location-img.png" alt="img not found"></span>
+                        <span class="footer__widget-item-1-location"><img src="web-assets/imgs/footer/footer1-bg-location-img.png" alt="img not found"></span>
                         <div class="footer__logo mb-30">
-                            <a href="{{ '/' }}">
-                                <img src="public/web-assets/imgs/footer/theaccity.png" alt="logo not found">
+                            <a href="{{ url('/') }}">
+                                <img src="{{ asset($settings['footer_logo'] ?? 'web-assets/imgs/footer/theaccity.png') }}" alt="{{ $settings['site_name'] ?? 'Theaccity' }}">
                             </a>
                         </div>
                         <div class="footer__content">
-                            <p>We are a reliable student visa consultancy, guiding students in university admission, visa processing, and study abroad support. Our goal is to make your journey simple, smooth, and successful.</p>
+                            <p>{{ $settings['footer_description'] ?? 'We are a reliable student visa consultancy, guiding students in university admission, visa processing, and study abroad support.' }}</p>
                         </div>
 
                         <div class="footer__social mt-20">
-                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://www.pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a>
-                            <a href="https://vimeo.com/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="{{ $settings['facebook_url'] ?? 'https://www.facebook.com/' }}"><i class="fab fa-facebook-f"></i></a>
+                            <a href="{{ $settings['instagram_url'] ?? 'https://instagram.com/' }}"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="{{ $settings['pinterest_url'] ?? 'https://www.pinterest.com/' }}"><i class="fa-brands fa-pinterest-p"></i></a>
+                            <a href="{{ $settings['linkedin_url'] ?? 'https://linkedin.com/' }}"><i class="fa-brands fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -284,11 +285,11 @@
         <div class="footer__bottom-wrapper">
             <div class="container">
                 <div class="footer__bottom">
-                    <a href="https://api.whatsapp.com/send?phone=4407915184268&text=Hi%20%F0%9F%91%8B%20Welcome%20to%20The%20Accity!%0A%0AThanks%20for%20contacting%20us.%0APlease%20share%20your%20query%20and%20our%20team%20will%20get%20back%20to%20you%20shortly.">
+                    <a href="https://api.whatsapp.com/send?phone={{ $settings['whatsapp_number'] ?? '4407915184268' }}&text=Hi%20%F0%9F%91%8B%20Welcome%20to%20The%20Accity!%0A%0AThanks%20for%20contacting%20us.%0APlease%20share%20your%20query%20and%20our%20team%20will%20get%20back%20to%20you%20shortly.">
                         <img src="https://www.e-sheba.com/assets/images/Live-Chat.gif" style="width: 128px; position: fixed; bottom: 4%; right: 3%;z-index: 200;" alt="">
                     </a>
                     <div class="footer__copyright wow fadeInLeft animated" data-wow-delay=".6s">
-                        <p>© {{ date('Y')}} All Rights Reserved - <a href="https://theaccity.com">Accity</a></p>
+                        <p>© {{ date('Y') }} {{ $settings['copyright_text'] ?? 'All Rights Reserved - Accity' }}</p>
                     </div>
                     <div class="footer__copyright wow fadeInLeft animated" data-wow-delay=".6s">
                         <p>Developed By - <a href="http://e-sheba.com/">ESHEBA</a></p>
@@ -311,24 +312,24 @@
 
 
 <!-- JS here -->
-<script src="public/web-assets/js/vendor/jquery-3.6.0.min.js"></script>
-<script src="public/web-assets/js/plugins/waypoints.min.js"></script>
-<script src="public/web-assets/js/vendor/bootstrap.bundle.min.js"></script>
-<script src="public/web-assets/js/plugins/meanmenu.min.js"></script>
-<script src="public/web-assets/js/plugins/swiper.min.js"></script>
-<script src="public/web-assets/js/plugins/wow.js"></script>
-<script src="public/web-assets/js/vendor/magnific-popup.min.js"></script>
-<script src="public/web-assets/js/vendor/type.js"></script>
-<script src="public/web-assets/js/vendor/vanilla-tilt.js"></script>
-<script src="public/web-assets/js/plugins/nice-select.min.js"></script>
-<script src="public/web-assets/js/vendor/odometer.min.js"></script>
-<script src="public/web-assets/js/vendor/jquery-ui.min.js"></script>
-<script src="public/web-assets/js/plugins/parallax-scroll.js"></script>
-<script src="public/web-assets/js/plugins/jquery.countdown.min.js"></script>
-<script src="public/web-assets/js/vendor/smooth-scroll.js"></script>
-<script src="public/web-assets/js/plugins/isotope-docs.min.js"></script>
-<script src="public/web-assets/js/vendor/ajax-form.js"></script>
-<script src="public/web-assets/js/main.js"></script>
+<script src="{{ asset('web-assets/js/vendor/jquery-3.6.0.min.js') }}"></script>
+<script src="{{ asset('web-assets/js/plugins/waypoints.min.js') }}"></script>
+<script src="{{ asset('web-assets/js/vendor/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('web-assets/js/plugins/meanmenu.min.js') }}"></script>
+<script src="{{ asset('web-assets/js/plugins/swiper.min.js') }}"></script>
+<script src="{{ asset('web-assets/js/plugins/wow.js') }}"></script>
+<script src="{{ asset('web-assets/js/vendor/magnific-popup.min.js') }}"></script>
+<script src="{{ asset('web-assets/js/vendor/type.js') }}"></script>
+<script src="{{ asset('web-assets/js/vendor/vanilla-tilt.js') }}"></script>
+<script src="{{ asset('web-assets/js/plugins/nice-select.min.js') }}"></script>
+<script src="{{ asset('web-assets/js/vendor/odometer.min.js') }}"></script>
+<script src="{{ asset('web-assets/js/vendor/jquery-ui.min.js') }}"></script>
+<script src="{{ asset('web-assets/js/plugins/parallax-scroll.js') }}"></script>
+<script src="{{ asset('web-assets/js/plugins/jquery.countdown.min.js') }}"></script>
+<script src="{{ asset('web-assets/js/vendor/smooth-scroll.js') }}"></script>
+<script src="{{ asset('web-assets/js/plugins/isotope-docs.min.js') }}"></script>
+<script src="{{ asset('web-assets/js/vendor/ajax-form.js') }}"></script>
+<script src="{{ asset('web-assets/js/main.js') }}"></script>
 
 <script>
    $(document).ready(function(){

@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 <main>
 
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/breadcrumb/breadcrumb.png">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/breadcrumb/breadcrumb.png">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -32,7 +32,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="team__item mb-30 wow fadeInLeft animated" data-wow-delay=".2s">
                         <div class="team__item-media">
-                            <img src="public/web-assets/imgs/team/team-img1.png" alt="img not found">
+                            <img src="web-assets/imgs/team/team-img1.png" alt="img not found">
                         </div>
                         <div class="team__item-content d-flex justify-content-between">
                             <div class="team__item-content-text">
@@ -58,7 +58,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="team__item mb-30 wow fadeInLeft animated" data-wow-delay=".3s">
                         <div class="team__item-media">
-                            <img src="public/web-assets/imgs/team/team-img2.png" alt="img not found">
+                            <img src="web-assets/imgs/team/team-img2.png" alt="img not found">
                         </div>
                         <div class="team__item-content d-flex justify-content-between">
                             <div class="team__item-content-text">
@@ -84,7 +84,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="team__item mb-30 wow fadeInLeft animated" data-wow-delay=".4s">
                         <div class="team__item-media">
-                            <img src="public/web-assets/imgs/team/team-img3.png" alt="img not found">
+                            <img src="web-assets/imgs/team/team-img3.png" alt="img not found">
                         </div>
                         <div class="team__item-content d-flex justify-content-between">
                             <div class="team__item-content-text">
@@ -110,7 +110,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="team__item mb-30 wow fadeInLeft animated" data-wow-delay=".5s">
                         <div class="team__item-media">
-                            <img src="public/web-assets/imgs/team/team-img4.png" alt="img not found">
+                            <img src="web-assets/imgs/team/team-img4.png" alt="img not found">
                         </div>
                         <div class="team__item-content d-flex justify-content-between">
                             <div class="team__item-content-text">
@@ -136,7 +136,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="team__item mb-30 wow fadeInLeft animated" data-wow-delay=".6s">
                         <div class="team__item-media">
-                            <img src="public/web-assets/imgs/team/team-img5.png" alt="img not found">
+                            <img src="web-assets/imgs/team/team-img5.png" alt="img not found">
                         </div>
                         <div class="team__item-content d-flex justify-content-between">
                             <div class="team__item-content-text">
@@ -162,7 +162,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="team__item mb-30 wow fadeInLeft animated" data-wow-delay=".7s">
                         <div class="team__item-media">
-                            <img src="public/web-assets/imgs/team/team-img6.png" alt="img not found">
+                            <img src="web-assets/imgs/team/team-img6.png" alt="img not found">
                         </div>
                         <div class="team__item-content d-flex justify-content-between">
                             <div class="team__item-content-text">
@@ -188,7 +188,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="team__item mb-30 wow fadeInLeft animated" data-wow-delay=".8s">
                         <div class="team__item-media">
-                            <img src="public/web-assets/imgs/team/team-img7.png" alt="img not found">
+                            <img src="web-assets/imgs/team/team-img7.png" alt="img not found">
                         </div>
                         <div class="team__item-content d-flex justify-content-between">
                             <div class="team__item-content-text">
@@ -214,7 +214,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="team__item mb-30 wow fadeInLeft animated" data-wow-delay=".9s">
                         <div class="team__item-media">
-                            <img src="public/web-assets/imgs/team/team-img8.png" alt="img not found">
+                            <img src="web-assets/imgs/team/team-img8.png" alt="img not found">
                         </div>
                         <div class="team__item-content d-flex justify-content-between">
                             <div class="team__item-content-text">
@@ -240,7 +240,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="team__item mb-30 wow fadeInLeft animated" data-wow-delay="1s">
                         <div class="team__item-media">
-                            <img src="public/web-assets/imgs/team/team-img9.png" alt="img not found">
+                            <img src="web-assets/imgs/team/team-img9.png" alt="img not found">
                         </div>
                         <div class="team__item-content d-flex justify-content-between">
                             <div class="team__item-content-text">

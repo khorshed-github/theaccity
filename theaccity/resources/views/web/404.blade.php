@@ -4,7 +4,7 @@
 
 <!-- Body main wrapper start -->
 <main>
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/breadcrumb/breadcrumb.png">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/breadcrumb/breadcrumb.png">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -52,7 +52,7 @@
                         </div>
 
                         <div class="error__content-media section-space-bottom">
-                            <img class="upDown-bottom" src="public/web-assets/imgs/404/404.png" alt="image not found">
+                            <img class="upDown-bottom" src="web-assets/imgs/404/404.png" alt="image not found">
                         </div>
                     </div>
                 </div>

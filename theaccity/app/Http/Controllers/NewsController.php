@@ -39,7 +39,7 @@ public function News_store(Request $request)
     if ($request->hasFile('file_name')) {
         $file = $request->file('file_name');
         
-        $fileName = time() . '_' . $file->getClientOriginalName();
+        $fileName = $file->hashName();
         
         $file->move(public_path('assets/images/news'), $fileName);
 

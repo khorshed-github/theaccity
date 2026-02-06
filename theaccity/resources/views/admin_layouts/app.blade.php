@@ -2,30 +2,31 @@
 <html lang="en" data-bs-theme="dark">
 <head>
     <!-- Required meta tags -->
-    <base href="https://theaccity.com/">
+    <base href="{{ url('/') }}/">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--favicon-->
-    <link rel="icon" href="public/assets/images/jamaat_l.png" type="image/png" />
+    <link rel="icon" href="assets/images/jamaat_l.png" type="image/png" />
     <!--plugins-->
-    <link href="public/assets/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet">
-    <link href="public/assets/plugins/simplebar/css/simplebar.css" rel="stylesheet">
-    <link href="public/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
-    <link href="public/assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet">
+    <link href="assets/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet">
+    <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet">
+    <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet">
     <!-- loader-->
 
     <!-- Bootstrap CSS -->
-    <link href="public/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="public/assets/css/bootstrap-extended.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link href="public/assets/sass/app.css" rel="stylesheet">
-    <link href="public/assets/css/icons.css" rel="stylesheet">
+    <link href="assets/sass/app.css" rel="stylesheet">
+    <link href="assets/css/icons.css" rel="stylesheet">
     <!--<link href='unpkg.com/boxicons%402.1.4/css/boxicons.min.css' rel='stylesheet'>-->
     <!-- Theme Style CSS -->
-    <link rel="stylesheet" href="public/assets/sass/dark-theme.css">
-    <link rel="stylesheet" href="public/assets/sass/semi-dark.css">
-    <link rel="stylesheet" href="public/assets/sass/bordered-theme.css">
+    <link rel="stylesheet" href="assets/sass/dark-theme.css">
+    <link rel="stylesheet" href="assets/sass/semi-dark.css">
+    <link rel="stylesheet" href="assets/sass/bordered-theme.css">
     <script src="https://cdn.ckeditor.com/ckeditor5/16.0.0/classic/ckeditor.js"></script>
 
     <style>
@@ -80,28 +81,60 @@
     <!--start switcher-->
 
     <!--end switcher-->
+    <!-- jQuery MUST load first -->
+    <script src="assets/js/jquery.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="public/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
     <!--plugins-->
-    <script src="public/assets/js/jquery.min.js"></script>
-    <script src="public/assets/plugins/simplebar/js/simplebar.min.js"></script>
-    <script src="public/assets/plugins/metismenu/js/metisMenu.min.js"></script>
-    <script src="public/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-    <!--<script src="public/assets/plugins/apexcharts-bundle/js/apexcharts.min.js"></script>-->
+    <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+    <script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+    <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    <!--<script src="assets/plugins/apexcharts-bundle/js/apexcharts.min.js"></script>-->
+    
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+    <script src="assets/plugins/datatable/js/dataTables.bootstrap5.min.js"></script>
+    
     <!--app JS-->
-    <script src="public/assets/js/app.js"></script>
-
-    <script src="public/assets/js/index.js"></script>
-    <script src="public/assets/plugins/peity/jquery.peity.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/plugins/peity/jquery.peity.min.js"></script>
     <script>
         $(".data-attributes span").peity("donut")
     </script>
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
-    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    
+    <!-- Initialize Sidebar Toggle -->
+    <script>
+        $(document).ready(function() {
+            // Ensure metisMenu is initialized
+            if ($.fn.metisMenu) {
+                $("#menu").metisMenu();
+            }
+            
+            // Re-bind mobile toggle menu event
+            $(".mobile-toggle-menu").off('click').on("click", function () {
+                console.log('Sidebar toggle clicked'); // Debug
+                if ($(".wrapper").hasClass("toggled")) {
+                    $(".wrapper").removeClass("toggled");
+                    $(".sidebar-wrapper").unbind("hover");
+                } else {
+                    $(".wrapper").addClass("toggled");
+                    $(".sidebar-wrapper").hover(
+                        function () {
+                            $(".wrapper").addClass("sidebar-hovered");
+                        },
+                        function () {
+                            $(".wrapper").removeClass("sidebar-hovered");
+                        }
+                    );
+                }
+            });
+        });
+    </script>
 
-<script src="public/assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
-<script src="public/assets/plugins/datatable/js/dataTables.bootstrap5.min.js"></script> 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function() {
             new DataTable('#example');
@@ -215,7 +248,7 @@
                         // Show the existing image preview
                         if (data.file_name) {
                             $('#filePreview').html(`
-                                            <img src="/public/assets/images/Country/${data.file_name}" alt="Existing Image" width="150" class="img-thumbnail">
+                                            <img src="/assets/images/Country/${data.file_name}" alt="Existing Image" width="150" class="img-thumbnail">
                                             <p class="mt-2"><strong>Current Image:</strong> ${data.file_name}</p>
                                         `);
                         } else {
@@ -331,7 +364,7 @@
                         // Show the existing image preview
                         if (data.file_name) {
                             $('#filePreview').html(`
-                                            <img src="/public/assets/images/University/${data.file_name}" alt="Existing Image" width="150" class="img-thumbnail">
+                                            <img src="/assets/images/University/${data.file_name}" alt="Existing Image" width="150" class="img-thumbnail">
                                             <p class="mt-2"><strong>Current Image:</strong> ${data.file_name}</p>
                                         `);
                         } else {
@@ -886,7 +919,7 @@
                         // Show the existing image preview
                         if (data.file_name) {
                             $('#filePreview').html(`
-                                            <img src="/public/assets/images/Album/${data.file_name}" alt="Existing Image" width="150" class="img-thumbnail">
+                                            <img src="/assets/images/Album/${data.file_name}" alt="Existing Image" width="150" class="img-thumbnail">
                                             <p class="mt-2"><strong>Current Image:</strong> ${data.file_name}</p>
                                         `);
                         } else {
@@ -1003,7 +1036,7 @@
                         // Show the existing image preview
                         if (data.file_name) {
                             $('#filePreview').html(`
-                                            <img src="/public/assets/images/photo-gallery/${data.file_name}" alt="Existing Image" width="150" class="img-thumbnail">
+                                            <img src="/assets/images/photo-gallery/${data.file_name}" alt="Existing Image" width="150" class="img-thumbnail">
                                             <p class="mt-2"><strong>Current Image:</strong> ${data.file_name}</p>
                                         `);
                         } else {
@@ -1121,7 +1154,7 @@
                         // Show the existing image preview
                         if (data.file_name) {
                             $('#filePreview').html(`
-                                            <img src="/public/assets/images/video-gallery/${data.file_name}" alt="Existing Image" width="150" class="img-thumbnail">
+                                            <img src="/assets/images/video-gallery/${data.file_name}" alt="Existing Image" width="150" class="img-thumbnail">
                                             <p class="mt-2"><strong>Current Image:</strong> ${data.file_name}</p>
                                         `);
                         } else {
@@ -1578,7 +1611,7 @@
                         // Show the existing image preview
                         if (data.file_name) {
                             $('#filePreview').html(`
-                                            <img src="/public/assets/images/sliders/${data.file_name}" alt="Existing Image" width="150" class="img-thumbnail">
+                                            <img src="/assets/images/sliders/${data.file_name}" alt="Existing Image" width="150" class="img-thumbnail">
                                             <p class="mt-2"><strong>Current Image:</strong> ${data.file_name}</p>
                                         `);
                         } else {

@@ -36,7 +36,7 @@ class SliderController extends GlobalController
     // Handle file upload if a new file is provided
     if ($request->hasFile('file_name')) {
         $file = $request->file('file_name');
-        $fileName = time() . '_' . $file->getClientOriginalName();
+        $fileName = $file->hashName();
         $file->move(public_path('assets/images/sliders'), $fileName);
 
         // Optionally, delete the old file if it exists

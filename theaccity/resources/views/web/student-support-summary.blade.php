@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 
 <main>
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/bg/supportsbg.jpg">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/bg/supportsbg.jpg">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -34,7 +34,7 @@
                     @foreach($news as $n)
                         <div class="blog__content">
                         <div class="blog__content-thumb">
-                            <img src="{{ asset('public/assets/images/student-support/' . $n->file_name) }}" alt="img not found">
+                            <img src="{{ asset('assets/images/student-support/' . $n->file_name) }}" alt="img not found">
                         </div>
                         <ul class="blog__content-meta mt-20 d-flex wow fadeInLeft animated" data-wow-delay=".2s">
                             <li><a href="#"><svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -88,7 +88,7 @@
                                 @foreach($visit as $v)
                                 <div class="sidebar-post">
                                     <a href="#" class="sidebar-post_thumb">
-                                        <img src="{{ asset('public/assets/images/student-support/' . $v->file_name) }}" alt="post">
+                                        <img src="{{ asset('assets/images/student-support/' . $v->file_name) }}" alt="post">
                                     </a>
 
                                     <div class="sidebar-post_content">

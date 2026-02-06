@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 <main>
 
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/breadcrumb/breadcrumb.png">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/breadcrumb/breadcrumb.png">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -54,7 +54,7 @@
                 <div class="col-lg-8">
                     <div class="coaching-details__content">
                         <div class="coaching-details__content-top-img pb-20" data-tilt>
-                            <img src="public/web-assets/imgs/coaching/coaching-details/coaching-details-top-img.png" alt="img not found">
+                            <img src="web-assets/imgs/coaching/coaching-details/coaching-details-top-img.png" alt="img not found">
                         </div>
                         <h2 class="coaching-details__content-title mb-30 wow fadeInLeft animated" data-wow-delay=".3s">About IELTS Coaching</h2>
                         <p class=" wow fadeInLeft animated" data-wow-delay=".4s">IELTS score is internationally recognized as an English Language proficiency requirement for higher education, in almost all countries including the USA, the United Kingdom, Australia, Canada, and New Zealand. The highest IELT Academic module whether you have adequate  possible band score is 9.0; most universities accept a score of 6.0 for undergraduate admission and 6.0-7.0 for graduate admission. There are two versions of the </p>
@@ -84,7 +84,7 @@
                     </div>
                     <div class="coaching-details__bottom">
                         <div class="coaching-details__bottom-img mb-30" data-tilt>
-                            <img src="public/web-assets/imgs/coaching/coaching-details/coaching-details-bottom-img.png" alt="img not found">
+                            <img src="web-assets/imgs/coaching/coaching-details/coaching-details-bottom-img.png" alt="img not found">
                         </div>
                         <h3 class="mb-20 wow fadeInLeft animated" data-wow-delay=".8s">Our Benefits</h3>
                         <p class=" wow fadeInLeft animated" data-wow-delay=".9s">IELTS score is internationally recognized as an English Language proficiency requirement for higher education, in almost all countries including the USA, the United Kingdom, Australia, Canada, and New Zealand. The highest IELT Academic module test assesses whether you have adequate  possible band score is 9.0; most universities accept a score of 6.0 for undergraduate and 6.0-7.0 for graduate admission. There are two versions of the </p>

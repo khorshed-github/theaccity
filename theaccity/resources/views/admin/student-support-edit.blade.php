@@ -2,7 +2,7 @@
 @extends("admin_layouts.app")
 
 @section("style")
-<link href="public/assets/plugins/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+<link href="assets/plugins/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
 @endsection
 
 @section("wrapper")
@@ -79,7 +79,7 @@
                                             <label for="file_name" class="form-label">Picture Upload</label>
                                             <input type="file" name="file_name" class="form-control" id="file_name" accept="image/*">
                                             <div id="filePreview" class="mt-2">
-                                                <img src="{{ asset('public/assets/images/student-support/' . $news->file_name) }}" alt="Existing Image" width="150" class="img-thumbnail">
+                                                <img src="{{ asset('assets/images/student-support/' . $news->file_name) }}" alt="Existing Image" width="150" class="img-thumbnail">
                                             <p class="mt-2"><strong>Current Image:</strong> {{$news->file_name}}</p>
                                             </div> <!-- Preview for existing file -->
                                         </div>

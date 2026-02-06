@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 <main>
 
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/bg/agents.jpg">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/bg/agents.jpg">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -29,7 +29,7 @@
     <section class="apply-form-4__area">
         <div class="apply-form-4__bg__1 d-none d-xl-block"></div>
         <div class="apply-form-4__bg__2"></div>
-        <div class="apply-form-4__thumb__bg" data-background="public/web-assets/imgs/apply-form-4/thumb-bg.jpg"></div>
+        <div class="apply-form-4__thumb__bg" data-background="web-assets/imgs/apply-form-4/thumb-bg.jpg"></div>
         <div class="apply-form-4__shape upDown d-none d-xxl-block">
             <img src="assets/imgs/apply-form-4/apply-form-4-shape.png" alt="image not found">
         </div>

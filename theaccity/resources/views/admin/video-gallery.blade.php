@@ -2,7 +2,7 @@
 @extends("admin_layouts.app")
 
 @section("style")
-<link href="public/assets/plugins/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+<link href="assets/plugins/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
 @endsection
 
 @section("wrapper")
@@ -78,7 +78,7 @@
                                         <td class="d-inline-block" style="max-width: 250px;">{{ $slider->link }}</td>
                                         <td>
                                             @if ($slider->file_name)
-                                            <img src="{{ asset('public/assets/images/video-gallery/' . $slider->file_name) }}" alt="{{ $slider->title }}" width="50">
+                                            <img src="{{ asset('assets/images/video-gallery/' . $slider->file_name) }}" alt="{{ $slider->title }}" width="50">
                                             @endif
                                         </td>
                                         <td>{{ $slider->status ? 'Active' : 'Inactive' }}</td>

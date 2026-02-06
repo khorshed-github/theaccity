@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 <main>
 
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/breadcrumb/breadcrumb.png">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/breadcrumb/breadcrumb.png">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -33,7 +33,7 @@
                 <div class="col-lg-8">
                     <div class="blog__content">
                         <div class="blog__content-thumb">
-                            <img src="public/web-assets/imgs/blog/blog-1img.png" alt="img not found">
+                            <img src="web-assets/imgs/blog/blog-1img.png" alt="img not found">
                         </div>
                         <ul class="blog__content-meta mt-20 d-flex wow fadeInLeft animated" data-wow-delay=".2s">
                             <li><a href="#"><svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +63,7 @@
                     </div>
                     <div class="blog__content mt-80">
                         <div class="blog__content-thumb">
-                            <img src="public/web-assets/imgs/blog/blog-2img.png" alt="img not found">
+                            <img src="web-assets/imgs/blog/blog-2img.png" alt="img not found">
                         </div>
                         <ul class="blog__content-meta mt-20 d-flex wow fadeInLeft animated" data-wow-delay=".4s">
                             <li><a href="#"><svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,7 +93,7 @@
                     </div>
                     <div class="blog__content mt-80">
                         <div class="blog__content-thumb">
-                            <img src="public/web-assets/imgs/blog/blog-3img.png" alt="img not found">
+                            <img src="web-assets/imgs/blog/blog-3img.png" alt="img not found">
                         </div>
                         <ul class="blog__content-meta mt-20 d-flex wow fadeInLeft animated" data-wow-delay=".6s">
                             <li><a href="#"><svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -151,7 +151,7 @@
                             <div class="sidebar-post__wrapper mt-20">
                                 <div class="sidebar-post">
                                     <a href="/blog-details" class="sidebar-post_thumb">
-                                        <img src="public/web-assets/imgs/blog/blog-right-small-img1.png" alt="post">
+                                        <img src="web-assets/imgs/blog/blog-right-small-img1.png" alt="post">
                                     </a>
 
                                     <div class="sidebar-post_content">
@@ -170,7 +170,7 @@
 
                                 <div class="sidebar-post">
                                     <a href="/blog-details" class="sidebar-post_thumb">
-                                        <img src="public/web-assets/imgs/blog/blog-right-small-img2.png" alt="post">
+                                        <img src="web-assets/imgs/blog/blog-right-small-img2.png" alt="post">
                                     </a>
 
                                     <div class="sidebar-post_content">
@@ -189,7 +189,7 @@
 
                                 <div class="sidebar-post">
                                     <a href="/blog-details" class="sidebar-post_thumb">
-                                        <img src="public/web-assets/imgs/blog/blog-right-small-img3.png" alt="post">
+                                        <img src="web-assets/imgs/blog/blog-right-small-img3.png" alt="post">
                                     </a>
 
                                     <div class="sidebar-post_content">

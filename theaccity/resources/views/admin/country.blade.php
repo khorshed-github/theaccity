@@ -2,7 +2,7 @@
 @extends("admin_layouts.app")
 
 @section("style")
-<link href="public/assets/plugins/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+<link href="assets/plugins/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
 @endsection
 
 @section("wrapper")
@@ -77,7 +77,7 @@
                                                 <td class="text-truncate">{{ $countries->name }}</td>
                                                 <td>
                                                     @if ($countries->file_name)
-                                                    <img src="{{ asset('public/assets/images/Country/' . $countries->file_name) }}" alt="{{ $countries->name }}" width="50">
+                                                    <img src="{{ asset('assets/images/Country/' . $countries->file_name) }}" alt="{{ $countries->name }}" width="50">
                                                     @endif
                                                 </td>
                                                 <td>{{ $countries->status ? 'Active' : 'Inactive' }}</td>

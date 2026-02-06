@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 <main>
 
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/bg/contactusbg.jpg">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/bg/contactusbg.jpg">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -32,7 +32,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="contact-us__widget mb-30" data-tilt>
-                        <img src="public/web-assets/imgs/concact/contact-left-img.png" alt="img not found">
+                        <img src="web-assets/imgs/concact/contact-left-img.png" alt="img not found">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -234,7 +234,7 @@
                                 </div>
                             </div>
                             <div class="tab-content" data-tilt>
-                                <img src="public/web-assets/imgs/concact/contact-tap-img.png" alt="img not found">
+                                <img src="web-assets/imgs/concact/contact-tap-img.png" alt="img not found">
                             </div>
                         </div>
                     </div>
@@ -323,7 +323,7 @@
                                 </div>
                             </div>
                             <div class="tab-content" data-tilt>
-                                <img src="public/web-assets/imgs/concact/contact-tap-img2.png" alt="img not found">
+                                <img src="web-assets/imgs/concact/contact-tap-img2.png" alt="img not found">
                             </div>
                         </div>
                     </div>
@@ -412,7 +412,7 @@
                                 </div>
                             </div>
                             <div class="tab-content" data-tilt>
-                                <img src="public/web-assets/imgs/concact/contact-tap-img3.png" alt="img not found">
+                                <img src="web-assets/imgs/concact/contact-tap-img3.png" alt="img not found">
                             </div>
                         </div>
                     </div>
@@ -501,7 +501,7 @@
                                 </div>
                             </div>
                             <div class="tab-content" data-tilt>
-                                <img src="public/web-assets/imgs/concact/contact-tap-img4.png" alt="img not found">
+                                <img src="web-assets/imgs/concact/contact-tap-img4.png" alt="img not found">
                             </div>
                         </div>
                     </div>-->

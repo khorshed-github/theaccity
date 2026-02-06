@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 <main>
 
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/breadcrumb/breadcrumb.png">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/breadcrumb/breadcrumb.png">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -57,15 +57,15 @@
                     <div class="story-details__media wow fadeInLeft animated" data-wow-delay=".7s">
                         <div class="story-details__media-wrapper">
                             <div class="story-details__media-wrapper-left-shape">
-                                <img src="public/web-assets/imgs/story-img/story-details/story-details-right-shape1.png" alt="img not found">
+                                <img src="web-assets/imgs/story-img/story-details/story-details-right-shape1.png" alt="img not found">
                             </div>
                             <div class="story-details__media-wrapper-right-shape">
-                                <img src="public/web-assets/imgs/story-img/story-details/story-details-right-shape2.png" alt="img not found">
+                                <img src="web-assets/imgs/story-img/story-details/story-details-right-shape2.png" alt="img not found">
                             </div>
                         </div>
                         <div class="story-details__media-thumb position-relative">
                             <div class="story-details__media-thumb-box"></div>
-                            <img src="public/web-assets/imgs/story-img/story-details/story-details-right-img.png" alt="img not found">
+                            <img src="web-assets/imgs/story-img/story-details/story-details-right-img.png" alt="img not found">
                         </div>
                     </div>
                 </div>

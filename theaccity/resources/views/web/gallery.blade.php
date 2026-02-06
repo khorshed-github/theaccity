@@ -4,7 +4,7 @@
 <!-- Body main wrapper start -->
 <main>
 
-    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="public/web-assets/imgs/bg/gallery-bd.jpg">
+    <div class="breadcrumb__area dark-green breadcrumb-space overflow-hidden custom-width position-relative z-1" data-background="web-assets/imgs/bg/gallery-bd.jpg">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -35,7 +35,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="gallery__item position-relative overflow-hidden">
                         <div class="gallery__media mb-30">
-                            <img src="{{ asset('public/assets/images/Album/' . $gal['file_name']) }}" alt="img not found">
+                            <img src="{{ asset('assets/images/Album/' . $gal['file_name']) }}" alt="img not found">
                         </div>
                         <div class="gallery__content">
                             <h3 class="gallery__title"><a href="gallery">{{ $gal['title']}}</a></h3>
