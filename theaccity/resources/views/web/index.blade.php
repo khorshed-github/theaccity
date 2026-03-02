@@ -51,7 +51,7 @@
                         <div class="about-us-2__wrapper-media about-4__wrapper-media overflow-hidden d-flex">
                             <div class="img-wrap">
                                 <div class="about-us-2__wrapper-media-image-1">
-                                    <img src="web-assets/imgs/home-4/about-4-img-1.png" class="img-fluid"  alt="image not found">
+                                    <img src="{{ asset($settings['about_image_1'] ?? 'web-assets/imgs/home-4/about-4-img-1.png') }}" class="img-fluid"  alt="image not found">
                                 </div>
                             </div>
                             <div class="about-us-2__wrapper-media-image-2">
@@ -64,7 +64,7 @@
                                 <p>Years Of Experience</p>
                             </div>
                             <div class="about-us-2__wrapper-media-image-3 img-wrap">
-                                <img src="web-assets/imgs/home-4/about-4-img-2.png" class="img-fluid"  alt="image not found">
+                                <img src="{{ asset($settings['about_image_2'] ?? 'web-assets/imgs/home-4/about-4-img-2.png') }}" class="img-fluid"  alt="image not found">
                             </div>
                         </div>
                     </div>

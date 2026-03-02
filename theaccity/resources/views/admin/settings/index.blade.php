@@ -59,6 +59,14 @@
                             </div>
                         </a>
                     </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" data-bs-toggle="tab" href="#about-tab" role="tab" aria-selected="false">
+                            <div class="d-flex align-items-center">
+                                <div class="tab-icon"><i class='bx bx-image font-18 me-1'></i></div>
+                                <div class="tab-title">About Images</div>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
 
                 <div class="tab-content py-3">
@@ -135,6 +143,7 @@
                             <div class="row">
                                 @if($homepageSettings->count() > 0)
                                     @foreach($homepageSettings as $setting)
+                                        @if(!in_array($setting->setting_key, ['about_image_1', 'about_image_2']))
                                         <div class="col-md-6 mb-3">
                                             <label class="form-label text-capitalize">{{ str_replace('_', ' ', $setting->setting_key) }}</label>
                                             
@@ -154,6 +163,7 @@
                                                 <input type="text" name="{{ $setting->setting_key }}" value="{{ $setting->setting_value }}" class="form-control">
                                             @endif
                                         </div>
+                                        @endif
                                     @endforeach
                                 @endif
                             </div>
@@ -162,6 +172,60 @@
                             </div>
                         </form>
                     </div>
+
+                    <!-- About Images Tab -->
+                    <div class="tab-pane fade" id="about-tab" role="tabpanel">
+                        <form action="{{ route('admin.settings.update') }}" method="POST" enctype="multipart/form-data">
+                            @csrf
+                            <div class="row">
+
+                                {{-- About Image 1 --}}
+                                @php
+                                    $aboutImage1 = $homepageSettings->firstWhere('setting_key', 'about_image_1');
+                                    $aboutImage2 = $homepageSettings->firstWhere('setting_key', 'about_image_2');
+                                @endphp
+
+                                <div class="col-md-6 mb-4">
+                                    <label class="form-label fw-semibold">About Image 1</label>
+                                    <input type="file" name="about_image_1" class="form-control mb-2" accept="image/*">
+                                    @if($aboutImage1 && $aboutImage1->setting_value)
+                                        <div class="mt-2">
+                                            <img src="{{ asset($aboutImage1->setting_value) }}" alt="About Image 1"
+                                                style="max-width: 100%; max-height: 180px; border: 1px solid #ddd; padding: 5px; border-radius: 6px; object-fit: cover;">
+                                            <br><small class="text-muted mt-1 d-block">Current: {{ $aboutImage1->setting_value }}</small>
+                                        </div>
+                                    @else
+                                        <div class="mt-2 p-3 text-center bg-light rounded border border-dashed">
+                                            <i class='bx bx-image-alt' style="font-size:2rem; color:#aaa;"></i>
+                                            <p class="text-muted mb-0 mt-1" style="font-size:0.85rem;">No image uploaded yet</p>
+                                        </div>
+                                    @endif
+                                </div>
+
+                                <div class="col-md-6 mb-4">
+                                    <label class="form-label fw-semibold">About Image 2</label>
+                                    <input type="file" name="about_image_2" class="form-control mb-2" accept="image/*">
+                                    @if($aboutImage2 && $aboutImage2->setting_value)
+                                        <div class="mt-2">
+                                            <img src="{{ asset($aboutImage2->setting_value) }}" alt="About Image 2"
+                                                style="max-width: 100%; max-height: 180px; border: 1px solid #ddd; padding: 5px; border-radius: 6px; object-fit: cover;">
+                                            <br><small class="text-muted mt-1 d-block">Current: {{ $aboutImage2->setting_value }}</small>
+                                        </div>
+                                    @else
+                                        <div class="mt-2 p-3 text-center bg-light rounded border border-dashed">
+                                            <i class='bx bx-image-alt' style="font-size:2rem; color:#aaa;"></i>
+                                            <p class="text-muted mb-0 mt-1" style="font-size:0.85rem;">No image uploaded yet</p>
+                                        </div>
+                                    @endif
+                                </div>
+
+                            </div>
+                            <div class="text-end mt-3">
+                                <button type="submit" class="btn btn-primary">Save About Images</button>
+                            </div>
+                        </form>
+                    </div>
+
                 </div>
             </div>
         </div>

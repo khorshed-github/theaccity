@@ -32,7 +32,11 @@ class SettingsController extends GlobalController
                 if ($request->hasFile($key)) {
                     $file = $request->file($key);
                     $filename = $file->hashName();
-                    $file->move(public_path('assets/images/settings'), $filename);
+                    $uploadPath = public_path('assets/images/settings');
+                    if (!file_exists($uploadPath)) {
+                        mkdir($uploadPath, 0755, true);
+                    }
+                    $file->move($uploadPath, $filename);
                     $value = 'assets/images/settings/' . $filename;
                 }
                 
