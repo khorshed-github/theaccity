@@ -138,11 +138,11 @@
                     <div class="visit__wrapper-countries-wrap" style="margin-bottom: 10px !important; gap: 20px !important;">
                          @foreach($university as $unv)
                          <div class="visit__wrapper-countries-wrap-box img-1">
-                            <!--<img class="img-fluid" src="{{ asset('assets/images/University/' . $unv->file_name) }}" alt="{{ $unv['name'] }}">-->
-                            <h3 style="border: 1px dotted #ddd;
+                            <img class="img-fluid" src="{{ asset('assets/images/University/' . $unv->file_name) }}" alt="{{ $unv['name'] }}">
+                            <h3 style="border: 1px dotted #DA3A34;
                                         padding: 5px;
                                         border-radius: 10px;
-                                        background: #fafafa;" class="title">{{ $unv['name'] }}</h3>
+                                        background: #212958;" class="title">{{ $unv['name'] }}</h3>
                         </div>
                         @endforeach
                 </div>

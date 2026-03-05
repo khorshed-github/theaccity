@@ -61,7 +61,7 @@
         }
         .toggle-btn.active {
             background: #ffffff;
-            color: #2563eb;
+            color: #DA3A34; /* Brand Red */
             box-shadow: 0 2px 10px rgba(0,0,0,0.05);
         }
         .auth-body {
@@ -77,8 +77,8 @@
             transition: all 0.2s;
         }
         .form-control-custom:focus {
-            border-color: #2563eb;
-            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+            border-color: #DA3A34; /* Brand Red */
+            box-shadow: 0 0 0 4px rgba(218, 58, 52, 0.1); /* Brand Red */
             background-color: #fff;
         }
         .form-label {
@@ -91,7 +91,7 @@
         }
         .btn-primary-custom {
             height: 50px;
-            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            background: linear-gradient(135deg, #DA3A34 0%, #b82e29 100%); /* Brand Red */
             border: none;
             border-radius: 10px;
             color: white;
@@ -99,12 +99,12 @@
             font-size: 16px;
             width: 100%;
             transition: transform 0.2s, box-shadow 0.2s;
-            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+            box-shadow: 0 4px 12px rgba(218, 58, 52, 0.2); /* Brand Red */
         }
         .btn-primary-custom:hover {
             transform: translateY(-1px);
-            box-shadow: 0 6px 15px rgba(37, 99, 235, 0.3);
-            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+            box-shadow: 0 6px 15px rgba(218, 58, 52, 0.3); /* Brand Red */
+            background: linear-gradient(135deg, #212958 0%, #161c3d 100%); /* Brand Navy */
             color: white;
         }
         .input-icon-group {

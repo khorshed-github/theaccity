@@ -25,6 +25,121 @@
     <link rel="stylesheet" href="{{ asset('web-assets/css/vendor/spacing.css') }}">
     <link rel="stylesheet" href="{{ asset('web-assets/css/vendor/custom-font.css') }}">
     <link rel="stylesheet" href="{{ asset('web-assets/css/main.css') }}">
+
+    <!-- Brand Custom Theme Inject -->
+    <style>
+        :root {
+            --brand-navy: #212958;
+            --brand-red: #DA3A34;
+            --brand-red-dark: #b82e29;
+            --rr-theme-primary: var(--brand-red);
+            --rr-heading-primary: var(--brand-navy);
+        }
+
+        /* Override general buttons */
+        .rr-btn {
+            background-color: var(--brand-red) !important;
+            border-color: var(--brand-red) !important;
+            color: #fff !important;
+        }
+        .rr-btn:hover {
+            background-color: var(--brand-navy) !important;
+            border-color: var(--brand-navy) !important;
+        }
+
+        .header__logo img, .footer__logo img {
+            max-width: 200px;
+        }
+        
+        .header-container {
+            border-bottom: 2px solid var(--brand-red);
+            background: white;
+        }
+
+        .main-menu nav > ul > li > a {
+            color: var(--brand-navy) !important;
+        }
+        
+        .main-menu nav > ul > li > a:hover {
+            color: var(--brand-red) !important;
+        }
+
+        .main-menu nav > ul > li:hover > a {
+            color: var(--brand-red) !important;
+        }
+
+        /* Mega menu items override */
+        .mega__menu-wrapper {
+            background-color: transparent;
+        }
+        
+        /* Footer override */
+        .footer__area-common {
+            background-color: var(--brand-navy) !important;
+            background-image: none !important;
+        }
+        
+        .footer__area-common::before {
+            background-color: var(--brand-navy) !important;
+        }
+        
+        .footer__widget-title h4, 
+        .footer__content p,
+        .footer__link ul li a,
+        h3 {
+             color: white !important;
+        }
+        
+        .submit, .contact-btn {
+            background-color: var(--brand-red) !important;
+            color: white !important;
+        }
+        
+        .submit:hover, .contact-btn:hover {
+            background-color: var(--brand-navy) !important;
+        }
+        
+        /* Social icon hover */
+        .footer__social a:hover {
+            background-color: var(--brand-red) !important;
+            color: white !important;
+        }
+        
+        .backtotop-wrap {
+            background-color: var(--brand-red) !important;
+        }
+        .backtotop-wrap svg path {
+            stroke: white !important;
+        }
+
+        /* Breadcrumb Override */
+        .breadcrumb__area {
+            background-color: rgba(33, 41, 88, 0.85) !important; /* Navy Blue overlay fallback */
+            border-bottom: 2px solid var(--brand-red);
+            position: relative;
+        }
+        
+        /* Fallback if breadcrumb uses ::before layer */
+        .breadcrumb__area::before {
+            background-color: rgba(33, 41, 88, 0.85) !important; /* Semi-transparent Navy Blue */
+        }
+
+        .breadcrumb__menu ul li span {
+            color: #ccc !important;
+        }
+        .breadcrumb__menu ul li.active span {
+            color: var(--brand-red) !important;
+        }
+        .breadcrumb__menu ul li span a {
+            color: white !important;
+        }
+        .breadcrumb__menu ul li span a:hover {
+            color: var(--brand-red) !important;
+        }
+        .breadcrumb__menu ul li:not(:last-child)::before {
+            color: white !important;
+        }
+    </style>
 </head>
 
 <body>

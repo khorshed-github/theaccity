@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
 <head>
     <!-- Required meta tags -->
     <base href="{{ url('/') }}/">
@@ -24,9 +24,137 @@
     <link href="assets/css/icons.css" rel="stylesheet">
     <!--<link href='unpkg.com/boxicons%402.1.4/css/boxicons.min.css' rel='stylesheet'>-->
     <!-- Theme Style CSS -->
-    <link rel="stylesheet" href="assets/sass/dark-theme.css">
-    <link rel="stylesheet" href="assets/sass/semi-dark.css">
-    <link rel="stylesheet" href="assets/sass/bordered-theme.css">
+    <!-- Brand Custom Theme Inject -->
+    <style>
+        :root {
+            --brand-navy: #212958;
+            --brand-navy-light: #2d3870;
+            --brand-navy-dark: #161c3d;
+            --brand-red: #DA3A34;
+            --brand-red-light: #f2534d;
+            --brand-red-dark: #b82e29;
+            --brand-white: #ffffff;
+            --brand-bg: #f4f5f8;
+            --bs-body-bg: var(--brand-bg);
+            --bs-body-color: #333;
+        }
+        
+        body {
+            background-color: var(--brand-bg) !important;
+            color: var(--bs-body-color);
+        }
+
+        /* Topbar styling */
+        .topbar {
+            background-color: var(--brand-white) !important;
+            border-bottom: 1px solid rgba(0,0,0,0.05) !important;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+        }
+        .topbar .nav-link {
+            color: var(--brand-navy) !important;
+        }
+        .topbar .nav-link:hover {
+            color: var(--brand-red) !important;
+            background-color: rgba(218, 58, 52, 0.08) !important;
+        }
+
+        /* Sidebar menu styling */
+        .sidebar-wrapper {
+            background-color: var(--brand-navy) !important;
+            box-shadow: 4px 0 15px rgba(0,0,0,0.05);
+            border-right: none !important;
+        }
+        .sidebar-header {
+            background-color: var(--brand-navy-dark) !important;
+            border-right: none !important;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .sidebar-header .logo-text {
+            color: var(--brand-white) !important;
+            font-weight: 600;
+        }
+        .sidebar-wrapper .metismenu a {
+            color: rgba(255,255,255,0.7) !important;
+        }
+        .sidebar-wrapper .metismenu ul {
+            background: rgba(0,0,0,0.1) !important;
+        }
+        .sidebar-wrapper .metismenu .menu-label {
+            color: rgba(255,255,255,0.4) !important;
+        }
+        
+        .sidebar-wrapper .metismenu .mm-active > a, 
+        .sidebar-wrapper .metismenu a:hover, 
+        .sidebar-wrapper .metismenu a:focus, 
+        .sidebar-wrapper .metismenu a:active {
+            color: var(--brand-white) !important;
+            background-color: var(--brand-red) !important;
+        }
+        
+        .sidebar-wrapper .metismenu .has-arrow:after {
+            color: rgba(255,255,255,0.5) !important;
+        }
+        
+        /* Mobile toggle icon */
+        .mobile-toggle-menu {
+            color: var(--brand-navy) !important;
+        }
+
+        /* Buttons and general highlights */
+        .btn-primary {
+            background-color: var(--brand-red) !important;
+            border-color: var(--brand-red) !important;
+            color: white !important;
+        }
+        .btn-primary:hover {
+            background-color: var(--brand-red-dark) !important;
+        }
+        
+        .page-footer {
+            background-color: var(--brand-white) !important;
+            color: #666 !important;
+            border-top: 1px solid rgba(0,0,0,0.05) !important;
+        }
+
+        .card {
+            box-shadow: 0 4px 15px rgba(33, 41, 88, 0.05) !important;
+            border: none !important;
+            border-radius: 12px;
+            background: white;
+        }
+        
+        .back-to-top {
+            background-color: var(--brand-red) !important;
+        }
+
+        /* Dropdowns */
+        .dropdown-menu {
+            border: none;
+            box-shadow: 0 10px 30px rgba(33, 41, 88, 0.1) !important;
+            border-radius: 10px;
+        }
+        .dropdown-item:hover {
+            background-color: rgba(218, 58, 52, 0.05) !important;
+            color: var(--brand-red) !important;
+        }
+        
+        .text-info { color: var(--brand-navy) !important; }
+        .text-warning { color: var(--brand-red) !important; }
+
+        .form-control:focus {
+            border-color: var(--brand-red) !important;
+            box-shadow: 0 0 0 0.25rem rgba(218, 58, 52, 0.25) !important;
+        }
+        
+        /* Typography overriding dark mode */
+        h1, h2, h3, h4, h5, h6, .card-title, label, th {
+            color: var(--brand-navy) !important;
+        }
+        p, td {
+            color: #555 !important;
+        }
+    </style>
+    <!-- End Brand Custom Theme -->
     <script src="https://cdn.ckeditor.com/ckeditor5/16.0.0/classic/ckeditor.js"></script>
 
     <style>

@@ -212,19 +212,19 @@
                                     <div>
                                         
                                         @if(Auth::guard('student')->check())
-                                        <a class="btn btn-sm btn-info course-title text-decoration-none fw-bold text-dark" 
+                                        <a class="btn btn-md btn-success text-decoration-none text-white" 
                                            href="#" 
                                            data-bs-toggle="modal" 
                                            data-bs-target="#courseDetailsModal_{{ $courseValue->id }}">
                                            More Details
                                         </a>
                                         @else
-                                        <a class="btn btn-sm btn-info course-title text-decoration-none fw-bold text-dark" 
+                                        <a class="btn btn-md btn-success text-decoration-none text-white" 
                                            href="{{ route('student.login') }}">
                                            More Details
                                         </a>
                                         @endif
-                                        <a class="btn btn-sm btn-danger" 
+                                        <a class="btn btn-md btn-danger" 
                                            href="#" 
                                            data-bs-toggle="modal" 
                                            data-bs-target="#courseDetailsModalApply">
