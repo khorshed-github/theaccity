@@ -82,34 +82,46 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="about__content about-4__content">
-                            <div class="section__title-wrapper mb-20">
-                                <!--<h6 class="section__title-wrapper-black-subtitle mb-10 wow fadeInLeft animated" data-wow-delay=".4s">About Us </h6>-->
+
+                            <style>
+                                .home-about-spec-list { list-style: none; padding: 0; margin: 14px 0 18px; }
+                                .home-about-spec-list li { display: flex; align-items: center; gap: 10px; padding: 7px 0; font-size: 15px; color: #374151; border-bottom: 1px solid #f1f4f9; }
+                                .home-about-spec-list li:last-child { border-bottom: none; }
+                                .home-about-spec-list li i { color: #DA3A34; font-size: 13px; flex-shrink: 0; }
+                                .home-about-tagline { background: linear-gradient(135deg, #212958, #DA3A34); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700; font-size: 15px; margin: 14px 0 22px; display: block; line-height: 1.5; }
+                            </style>
+
+                            <div class="section__title-wrapper mb-15">
                                 <h2 class="section__title-wrapper-title wow fadeInLeft animated" data-wow-delay=".5s">
-                                    {{ $settings['about_heading'] ?? 'About Us' }}</h2>
+                                    Empowering Futures Through <span style="color:#DA3A34;">Global Education</span>
+                                </h2>
                             </div>
-                            <p class=" wow fadeInLeft animated" data-wow-delay=".8s">
-                                {{ $settings['about_description'] ?? 'At ACCity, we are dedicated to connecting ambitious students from across the globe with world-class educational opportunities.' }}
+
+                            <p class="wow fadeInLeft animated" data-wow-delay=".6s" style="text-align:justify;">
+                                TheAccity is a trusted international education consultancy dedicated to supporting both international and UK home students in accessing high-quality academic opportunities.
                             </p>
-                            <div class="about__box about-4__box mt-20">
-                                <div class="about__box-item about-4__box-item mb-15 wow fadeInLeft animated"
-                                    data-wow-delay=".6s">
 
-                                    <div class="text">
-                                        <h4 class="about__box-item-title">Our Mission</h4>
-                                        <p>{{ $settings['about_mission'] ?? 'Our mission is to empower students to unlock their full academic and professional potential.' }}
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="about__box-item about-4__box-item wow fadeInLeft animated" data-wow-delay=".7s">
+                            <p class="wow fadeInLeft animated" data-wow-delay=".7s"
+                               style="font-weight:700; color:#212958; font-size:13px; text-transform:uppercase; letter-spacing:0.5px; margin: 14px 0 4px;">
+                                We Specialise In:
+                            </p>
+                            <ul class="home-about-spec-list wow fadeInLeft animated" data-wow-delay=".75s">
+                                <li><i class="fa-solid fa-circle-check"></i> UK University &amp; College Admissions</li>
+                                <li><i class="fa-solid fa-circle-check"></i> International Study Destinations</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Foundation &amp; Top-Up Programs</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Visa &amp; Compliance Guidance</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Student Finance &amp; Funding Support</li>
+                            </ul>
 
-                                    <div class="text">
-                                        <h4 class="about__box-item-title">Our Vision</h4>
-                                        <p>{{ $settings['about_vision'] ?? 'We envision a future in which every student has access to high-quality higher education.' }}
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="about__btn about-4__btn wow fadeInLeft animated" data-wow-delay=".8s">
+                            <p class="wow fadeInLeft animated" data-wow-delay=".8s" style="text-align:justify;">
+                                Our approach is student-centric, transparent, and results-driven. We simplify complex processes and provide end-to-end support — from course selection to enrolment and beyond.
+                            </p>
+
+                            <span class="home-about-tagline wow fadeInLeft animated" data-wow-delay=".85s">
+                                At TheAccity, we don't just process applications — we build academic pathways that shape careers and futures.
+                            </span>
+
+                            <div class="about__btn about-4__btn wow fadeInLeft animated" data-wow-delay=".9s">
                                 <a href="about-us" class="rr-btn">Read More<i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>

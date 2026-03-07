@@ -57,6 +57,13 @@
                     </div>
                     <div class="col-xl-6">
                         <div class="choose-us__content">
+                            <style>
+                                .about-spec-list { list-style: none; padding: 0; margin: 14px 0 18px; }
+                                .about-spec-list li { display: flex; align-items: center; gap: 10px; padding: 7px 0; font-size: 15px; color: #374151; border-bottom: 1px solid #f1f4f9; }
+                                .about-spec-list li:last-child { border-bottom: none; }
+                                .about-spec-list li i { color: #DA3A34; font-size: 13px; flex-shrink: 0; }
+                                .about-tagline { background: linear-gradient(135deg, #212958, #DA3A34); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700; font-size: 16px; margin-top: 14px; display: block; }
+                            </style>
                             <div class="section__title-wrapper mb-20">
                                 <h6 class="section__title-wrapper-black-subtitle mb-10 wow fadeInLeft animated" data-wow-delay=".6s">
                                     <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -74,10 +81,29 @@
                                     </h6>
                                 <!--<h2 class="section__title-wrapper-title wow fadeInLeft animated" data-wow-delay=".7s">Where Wanderlust Meets Dream Destinations</h2>-->
                             </div>
-                            <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">At ACCity, we are dedicated to connecting ambitious students from across the globe with world-class educational opportunities in the UK and beyond. Based in London, we specialise in both UK-home and international student recruitment for higher education institutions, giving each applicant personalised, expert guidance every step of the way.</p>
-                            <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">From the moment you consider studying in the UK or overseas, we’re here to support you—whether you’re living locally or halfway around the world. Our team understands the unique challenges students face: from selecting the right institution and programme, to application processes, visa guidance, and arriving successfully in the UK. With ACCity, you’re supported by a partner that values integrity, transparency, and results.</p>
-                            <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">Our vision is simple. We believe talent should know no borders—and that every student, regardless of origin, should have access to quality educational pathways and the support to succeed. We’ve built longstanding relationships with UK universities and international partners so that you get access to the right options and strong support networks.</p>
-                            <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">In a fast-changing global education landscape, ACCity stands for clarity, tailored service and a genuine commitment to helping you make the right choice—so you don’t just reach your destination, you thrive there.</p>
+
+                            <h4 class="wow fadeInLeft animated" data-wow-delay=".7s" style="color:#212958; font-size:22px; font-weight:800; margin-bottom:8px;">Empowering Futures Through Global Education</h4>
+
+                            <p class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay=".8s" style="text-align:justify;">
+                                TheAccity is a trusted international education consultancy dedicated to supporting both international and UK home students in accessing high-quality academic opportunities.
+                            </p>
+
+                            <p class="wow fadeInLeft animated mb-1" data-wow-delay=".9s" style="font-weight:700; color:#212958; font-size:14px; text-transform:uppercase; letter-spacing:0.5px;">We Specialise In:</p>
+                            <ul class="about-spec-list wow fadeInLeft animated" data-wow-delay=".9s">
+                                <li><i class="fa-solid fa-circle-check"></i> UK University &amp; College Admissions</li>
+                                <li><i class="fa-solid fa-circle-check"></i> International Study Destinations</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Foundation &amp; Top-Up Programs</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Visa &amp; Compliance Guidance</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Student Finance &amp; Funding Support</li>
+                            </ul>
+
+                            <p class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s" style="text-align:justify;">
+                                Our approach is student-centric, transparent, and results-driven. We simplify complex processes and provide end-to-end support — from course selection to enrolment and beyond.
+                            </p>
+
+                            <span class="about-tagline wow fadeInLeft animated" data-wow-delay="1.1s">
+                                At TheAccity, we don't just process applications — we build academic pathways that shape careers and futures.
+                            </span>
                            
                         </div>
                        
@@ -92,34 +118,61 @@
     <section class="process__area border-1px mt-30 mb-30 custom-width p-relative overflow-hidden z-1">
         <div class="process__bg-img" data-background="web-assets/imgs/about/process/process-bg.png"></div>
         <div class="container">
+            <style>
+                .mv-card { border-radius: 16px; padding: 32px 36px; height: 100%; }
+                .mv-card.mission { background: #212958; }
+                .mv-card.vision  { background: #DA3A34; }
+                .mv-icon { font-size: 28px; margin-bottom: 14px; display: block; }
+                .mv-card h5 { font-size: 22px; font-weight: 800; color: #fff; margin-bottom: 6px; }
+                .mv-card .mv-sub { color: rgba(255,255,255,0.75); font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 16px; display: block; }
+                .mv-card p { color: rgba(255,255,255,0.85); font-size: 14.5px; line-height: 1.7; margin-bottom: 16px; }
+                .mv-list { list-style: none; padding: 0; margin: 0; }
+                .mv-list li { display: flex; align-items: flex-start; gap: 10px; color: rgba(255,255,255,0.9); font-size: 14px; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
+                .mv-list li:last-child { border-bottom: none; }
+                .mv-list li i { margin-top: 3px; flex-shrink: 0; color: rgba(255,255,255,0.7); }
+                .mv-measure { margin-top: 20px; background: rgba(255,255,255,0.12); border-radius: 10px; padding: 12px 16px; color: #fff; font-size: 13px; font-weight: 600; font-style: italic; }
+            </style>
+
             <div class="row">
-                <div class="section__title-wrapper text-center mb-20">
-                   <h2 class="section__title-wrapper-title wow fadeInLeft animated" data-wow-delay=".3s">Our Mision & Vision</h2>
+                <div class="section__title-wrapper text-center mb-30">
+                    <h2 class="section__title-wrapper-title wow fadeInLeft animated" data-wow-delay=".3s">Our Mission &amp; Vision</h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row g-4">
+                <!-- Mission Card -->
                 <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="process__item wow fadeInLeft animated" data-wow-delay=".4s">
-                        <h5 class="mb-20 mt-10">Mission</h5>
-                        <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">Our mission is to empower students—both from the UK and internationally—to unlock their full academic and professional potential by providing transparent, high-quality recruitment and advisory support.</p>
-                        <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">Specifically, we will:</p>
-                        <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">Offer tailored guidance to each student: assessing goals, background, strengths and ambitions to match them with the most suitable institution or programme.</p>
-                        <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">Maintain transparency and integrity throughout the application and admissions process—ensuring clarity on requirements, fees, timelines and realistic outcomes.</p>
-                        <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">Support both UK-home and international students: whether you’re a local UK student exploring global opportunities, or an overseas applicant aiming to study in the UK, we have the expertise and networks to assist.</p>
-                        <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">Build lasting relationships with institutions and students alike, fostering ongoing support beyond admission—so our students arrive, settle and succeed.</p>
-                        <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">Harness technology, data and global partnerships to expand access and streamline recruitment while preserving a human-centred service.</p>
+                    <div class="mv-card mission wow fadeInLeft animated" data-wow-delay=".4s">
+                        <span class="mv-icon">🎯</span>
+                        <h5>Our Mission</h5>
+                        <span class="mv-sub">To Make Quality Education Accessible, Achievable &amp; Transformational</span>
+                        <p>Our mission is to provide structured, ethical, and personalised support to students pursuing higher education in the UK and globally.</p>
+                        <p style="color:rgba(255,255,255,0.7); font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:10px;">We Are Committed To:</p>
+                        <ul class="mv-list">
+                            <li><i class="fa-solid fa-angle-right"></i> Delivering accurate and transparent academic guidance</li>
+                            <li><i class="fa-solid fa-angle-right"></i> Matching students with the right course, institution &amp; pathway</li>
+                            <li><i class="fa-solid fa-angle-right"></i> Supporting UK home and international students equally</li>
+                            <li><i class="fa-solid fa-angle-right"></i> Simplifying admissions, documentation &amp; compliance processes</li>
+                            <li><i class="fa-solid fa-angle-right"></i> Building long-term partnerships with accredited institutions</li>
+                        </ul>
+                        <div class="mv-measure">We measure our success by the success of our students.</div>
                     </div>
                 </div>
+                <!-- Vision Card -->
                 <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="process__item process__item-3 wow fadeInLeft animated" data-wow-delay=".5s">
-                        <h5 class="mb-20 mt-10">Vision</h5>
-                        <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">We envision a future in which every student, from every country, has the opportunity to access high-quality higher education—unconstrained by geography, income or background. At ACCity we aim to be the trusted global bridge between student ambition and institutional opportunity.</p>
-                        <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">In this future we will be known for:</p>
-                        <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">Being the go-to gateway for UK higher education institutions seeking home and international student talent.</p>
-                        <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">Being the preferred partner for students worldwide looking for clear, honest advice on UK and global study options.</p>
-                        <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">Constantly innovating our services—leveraging digital tools, enhancing cross-border partnerships and offering full lifecycle support from pre-application through to post-arrival success.</p>
-                        <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">Shaping global graduates—not just by helping them enrol, but by empowering them to succeed academically, socially and professionally in a global environment.</p>
-                        <p style="text-align: justify !important;" class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s">Together, we’re working to make international education more accessible, more transparent and more transformative—for students, institutions and society.</p>
+                    <div class="mv-card vision wow fadeInLeft animated" data-wow-delay=".5s">
+                        <span class="mv-icon">🚀</span>
+                        <h5>Our Vision</h5>
+                        <span class="mv-sub">To Become a Leading Global Student Recruitment &amp; Education Advisory Brand</span>
+                        <p>Our vision is to create a global community of confident graduates empowered by quality education.</p>
+                        <p style="color:rgba(255,255,255,0.7); font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:10px;">We Aim To:</p>
+                        <ul class="mv-list">
+                            <li><i class="fa-solid fa-angle-right"></i> Be a recognised and trusted name in international student recruitment</li>
+                            <li><i class="fa-solid fa-angle-right"></i> Expand access to education across borders</li>
+                            <li><i class="fa-solid fa-angle-right"></i> Innovate the student journey through technology &amp; strategic partnerships</li>
+                            <li><i class="fa-solid fa-angle-right"></i> Promote ethical recruitment and responsible guidance</li>
+                            <li><i class="fa-solid fa-angle-right"></i> Create lifelong academic and career impact</li>
+                        </ul>
+                        <div class="mv-measure">We envision a world where opportunity is not limited by geography.</div>
                     </div>
                 </div>
                 
