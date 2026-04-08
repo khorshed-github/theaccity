@@ -3,6 +3,7 @@
 @section('wrapper')
 
     <main>
+        <h1 class="visually-hidden">Premier Global Education & Study Abroad Consultant in London - The Accity</h1>
         <!-- Banner area start -->
         <section class="banner__area banner-4 p-relative">
             <div class="swiper banner-4__active p-relative">
@@ -13,7 +14,7 @@
                             <div class="banner-4__shapes">
                                 <div class="banner-4__shapes-shape-1 upDown" data-animation="pixfix-fadeInLeft"
                                     data-delay="1000ms" data-duration="1200ms">
-                                    <img src="{{ asset('assets/images/sliders/' . $slider->file_name) }}" alt="img not found">
+                                    <img src="{{ asset('assets/images/sliders/' . $slider->file_name) }}" alt="{{ $slider->title }}">
                                 </div>
                             </div>
                             <div class="banner banner__space banner-4__space">
@@ -59,12 +60,12 @@
                                 <div class="img-wrap">
                                     <div class="about-us-2__wrapper-media-image-1">
                                         <img src="{{ asset($settings['about_image_1'] ?? 'web-assets/imgs/home-4/about-4-img-1.png') }}"
-                                            class="img-fluid" alt="image not found">
+                                            class="img-fluid" alt="The Accity Global Education Office">
                                     </div>
                                 </div>
                                 <div class="about-us-2__wrapper-media-image-2">
                                     <img class="leftRight" src="web-assets/imgs/home-4/about-4-plane-img.png"
-                                        alt="image not found">
+                                        alt="Global Study Abroad Illustration">
                                 </div>
                             </div>
                             <div class="about-us-2__wrapper-media about-4__wrapper-media d-flex">
@@ -75,7 +76,7 @@
                                 </div>
                                 <div class="about-us-2__wrapper-media-image-3 img-wrap">
                                     <img src="{{ asset($settings['about_image_2'] ?? 'web-assets/imgs/home-4/about-4-img-2.png') }}"
-                                        class="img-fluid" alt="image not found">
+                                        class="img-fluid" alt="Students receiving guidance from The Accity">
                                 </div>
                             </div>
                         </div>
@@ -114,11 +115,15 @@
                             </ul>
 
                             <p class="wow fadeInLeft animated" data-wow-delay=".8s" style="text-align:justify;">
-                                Our approach is student-centric, transparent, and results-driven. We simplify complex processes and provide end-to-end support â€” from course selection to enrolment and beyond.
+                                Our approach is student-centric, transparent, and results-driven. We provide a comprehensive suite of services including university selection based on academic profile and career goals, meticulous application processing, personal statement editing, and mock interviews for visa preparation. We simplify complex processes and provide end-to-end support — from the initial course selection to final enrolment and pre-departure briefings.
+                            </p>
+
+                            <p class="wow fadeInLeft animated" data-wow-delay=".82s" style="text-align:justify;">
+                                Whether you're a UK home student looking for the right undergraduate degree or an international postgraduate student navigating visa requirements, TheAccity ensures your journey is smooth and successful. Our partnerships with top-tier global universities mean we stay updated on the latest entry requirements and scholarship opportunities, giving our students a competitive edge.
                             </p>
 
                             <span class="home-about-tagline wow fadeInLeft animated" data-wow-delay=".85s">
-                                At TheAccity, we don't just process applications â€” we build academic pathways that shape careers and futures.
+                                At TheAccity, we don't just process applications — we build personalized academic pathways that shape successful global careers and futures.
                             </span>
 
                             <div class="about__btn about-4__btn wow fadeInLeft animated" data-wow-delay=".9s">
@@ -208,6 +213,59 @@
             </div>
         </section>
         <!-- End Academic Journey CTA Section -->
+
+        <!-- ✅ Why Choose Us Section -->
+        <section class="why-choose-us section-space bg-gray p-relative overflow-hidden">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="section__title-wrapper mb-40">
+                            <h6 class="section__title-wrapper-black-subtitle mb-10 wow fadeInLeft animated" data-wow-delay=".2s">Why Choose Us?</h6>
+                            <h2 class="section__title-wrapper-title wow fadeInLeft animated" data-wow-delay=".3s">Your Trusted Partner in <span style="color:#DA3A34;">Global Education</span></h2>
+                        </div>
+                        <div class="why-choose-us__content wow fadeInLeft animated" data-wow-delay=".4s">
+                            <div class="why-item d-flex align-items-start gap-3 mb-30" style="background:#fff; padding:20px; border-radius:12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);">
+                                <div class="why-icon" style="width:50px; height:50px; background:rgba(218,58,52,0.1); border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+                                    <i class="fa-solid fa-graduation-cap" style="color:#DA3A34; font-size:20px;"></i>
+                                </div>
+                                <div class="why-text">
+                                    <h4 style="font-size:18px; color:#212958; margin-bottom:8px;">Expert Academic Consultation</h4>
+                                    <p style="margin-bottom:0; font-size:14px; line-height:1.6;">Our advisors have years of experience in the UK education sector, providing tailored advice for both Home and International students.</p>
+                                </div>
+                            </div>
+                            <div class="why-item d-flex align-items-start gap-3 mb-30" style="background:#fff; padding:20px; border-radius:12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);">
+                                <div class="why-icon" style="width:50px; height:50px; background:rgba(33,41,88,0.1); border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+                                    <i class="fa-solid fa-file-invoice" style="color:#212958; font-size:20px;"></i>
+                                </div>
+                                <div class="why-text">
+                                    <h4 style="font-size:18px; color:#212958; margin-bottom:8px;">End-to-End Support</h4>
+                                    <p style="margin-bottom:0; font-size:14px; line-height:1.6;">From initial assessment and university selection to visa compliance and post-arrival support, we handle it all.</p>
+                                </div>
+                            </div>
+                            <div class="why-item d-flex align-items-start gap-3 mb-30" style="background:#fff; padding:20px; border-radius:12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);">
+                                <div class="why-icon" style="width:50px; height:50px; background:rgba(218,58,52,0.1); border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+                                    <i class="fa-solid fa-handshake" style="color:#DA3A34; font-size:20px;"></i>
+                                </div>
+                                <div class="why-text">
+                                    <h4 style="font-size:18px; color:#212958; margin-bottom:8px;">High Success Rate</h4>
+                                    <p style="margin-bottom:0; font-size:14px; line-height:1.6;">We pride ourselves on our high success rate for university admissions and student visa approvals globally.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="why-choose-us__image wow fadeInRight animated" data-wow-delay=".5s" style="position:relative;">
+                            <img src="web-assets/imgs/concact/contact-left-img.png" alt="Why Choose The Accity" style="width:100%; border-radius:20px; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+                            <div class="experience-badge" style="position:absolute; bottom:30px; left:30px; background:#212958; color:#fff; padding:20px; border-radius:15px; border-left:5px solid #DA3A34;">
+                                <h3 style="color:#fff; margin-bottom:0; font-size:24px;">15+ Years</h3>
+                                <p style="margin-bottom:0; font-size:14px; opacity:0.8;">of Academic Excellence</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Why Choose Us Section -->
 
         <!--cta 4-->
         <!--<section class="cta-4">
@@ -582,10 +640,10 @@
             class="latest-counter__area overflow-hidden p-relative z-1 pt-100 pb-90 pt-xs-30 pb-xs-60 latest-counter-bg">
             <div class="latest-counter__shapes">
                 <div class="shape-1 upDown">
-                    <img src="web-assets/imgs/home-5/counter-plane-img.png" alt="img not found">
+                    <img src="web-assets/imgs/home-5/counter-plane-img.png" alt="Travel and Study Illustration">
                 </div>
                 <div class="shape-2">
-                    <img src="web-assets/imgs/home-5/counter-bg-shape.png" alt="img not found">
+                    <img src="web-assets/imgs/home-5/counter-bg-shape.png" alt="Background Graphic">
                 </div>
             </div>
             <div class="container">
@@ -618,10 +676,10 @@
                     <div class="col-lg-6">
                         <div class="faq-5__thumb">
                             <div class="faq-5__thumb-shape upDown-bottom">
-                                <img src="web-assets/imgs/home-5/faq-circle-plane-shape.png" alt="img not found">
+                                <img src="web-assets/imgs/home-5/faq-circle-plane-shape.png" alt="FAQ Support Illustration">
                             </div>
                             <div class="faq-5__thumb-media">
-                                <img src="web-assets/imgs/faq/hero_image.svg" alt="img not found">
+                                <img src="web-assets/imgs/faq/hero_image.svg" alt="Support Specialist Answering Questions">
                             </div>
                         </div>
                     </div>
@@ -672,7 +730,7 @@
                                         <div class="testi-5__item">
                                             <div class="testi-5__item-thumb">
                                                 <img src="{{ asset('assets/images/sliders/' . $testi->file_name) }}"
-                                                    alt="img not found">
+                                                    alt="Student Testimonial Profile">
                                             </div>
                                             <!--<h4 class="testi-5__item-title"><a href="#">Name</a></h4>-->
                                             <span class="testi-5__item-subtitle">{{ $testi['title'] }}</span>
@@ -714,7 +772,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                             <div class="blog-4__item mb-30">
                                 <div class="blog-4__item-thumb">
-                                    <img src="{{ asset('assets/images/news/' . $blog->file_name) }}" alt="img not found">
+                                    <img src="{{ asset('assets/images/news/' . $blog->file_name) }}" alt="{{ $blog->title }}">
                                     <div class="blog-4__item-thumb-text">
                                         <span>{{ $blog->created_at->format('d F, Y') }}</span>
                                     </div>

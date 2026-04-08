@@ -315,6 +315,12 @@ Route::get('news-and-blogs', function () {
 Route::get('about-us', function () {
     return view('web/about-us');
 });
+Route::get('uk-home-students', function () {
+    return view('web/uk-home-students');
+});
+Route::get('international-recruitment', function () {
+    return view('web/international-recruitment');
+});
 Route::get('story', function () {
     return view('web/story');
 });

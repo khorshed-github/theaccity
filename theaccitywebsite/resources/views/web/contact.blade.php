@@ -89,7 +89,7 @@
                             </div>
                             <div class="contact-quick-text">
                                 <span class="contact-quick-label">Head Office</span>
-                                <a href="https://maps.app.goo.gl/R8Y6ZY6s1KrcGWc67" target="_blank"
+                                <a href="https://www.google.com/maps/search/?api=1&query=251-253+Commercial+Road+London+E1+2BT" target="_blank"
                                     class="contact-quick-value">Room G2-G4, Ground Floor, 251-253 Commercial Road, London,
                                     E1 2BT</a>
                             </div>

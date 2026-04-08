@@ -69,9 +69,9 @@
                     </div>
                     <div class="countrie-details__box wow fadeInLeft animated" data-wow-delay=".3s">
                         <div class="countrie-details__box-content wow fadeInLeft animated" data-wow-delay=".4s">
-                            <a href="tel:6295550129"><i class="fa-solid fa-phone"></i>(629) 555-0129</a>
-                            <a class="mt-20" href="mailto:info.rrdevs@gmail.com"><i class="fa-solid fa-envelope"></i>info@example.com</a>
-                            <a class="mt-20" href="https://maps.app.goo.gl/R8Y6ZY6s1KrcGWc67"><i class="fa-solid fa-location-dot"></i>6391 Elgin St. Celina, 10299</a>
+                            <a href="tel:+4402081435507"><i class="fa-solid fa-phone"></i>+44 0208 1435507</a>
+                            <a class="mt-20" href="mailto:info@theaccity.com"><i class="fa-solid fa-envelope"></i>info@theaccity.com</a>
+                            <a class="mt-20" href="https://www.google.com/maps/search/?api=1&query=251-253+Commercial+Road+London+E1+2BT" target="_blank"><i class="fa-solid fa-location-dot"></i>Room G2-G4, 251-253 Commercial Road, London, E1 2BT</a>
                         </div>
                         <div class="countrie-details__box-btn mt-40">
                             <a href="contact">Contact Us <i class="fa-solid fa-arrow-right"></i></a>

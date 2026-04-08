@@ -168,7 +168,47 @@
         .breadcrumb__menu ul li:not(:last-child)::before {
             color: white !important;
         }
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
     </style>
+    <!-- JSON-LD Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationOrganization",
+      "name": "The Accity",
+      "url": "https://www.theaccity.com/",
+      "logo": "https://www.theaccity.com/web-assets/imgs/logo/accity-icon.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+44 0208 1435507",
+        "contactType": "customer service",
+        "areaServed": "GB",
+        "availableLanguage": "en"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Room G2-G4, Ground Floor, 251-253 Commercial Road",
+        "addressLocality": "London",
+        "postalCode": "E1 2BT",
+        "addressCountry": "GB"
+      },
+      "sameAs": [
+        "https://www.facebook.com/",
+        "https://www.instagram.com/",
+        "https://www.linkedin.com/"
+      ]
+    }
+    </script>
 </head>
 
 <body>
@@ -298,6 +338,11 @@
                             <p>{{ $settings['footer_description'] ?? 'We are a reliable student visa consultancy, guiding students in university admission, visa processing, and study abroad support.' }}</p>
                         </div>
 
+                        <div class="footer__address mt-20" style="color: #fff; font-size: 14px;">
+                            <p style="margin-bottom: 5px;"><i class="fa-solid fa-location-dot" style="color: #DA3A34; margin-right: 8px;"></i> <strong>London Office:</strong> Room G2-G4, 251-253 Commercial Road, London, E1 2BT</p>
+                            <a href="https://www.google.com/maps/search/?api=1&query=251-253+Commercial+Road+London+E1+2BT" target="_blank" style="color: #DA3A34; text-decoration: underline; font-size: 13px;">View on Google Maps</a>
+                        </div>
+
                         <div class="footer__social mt-20">
                             <a href="{{ $settings['facebook_url'] ?? 'https://www.facebook.com/' }}"><i class="fab fa-facebook-f"></i></a>
                             <a href="{{ $settings['instagram_url'] ?? 'https://instagram.com/' }}"><i class="fa-brands fa-instagram"></i></a>
@@ -314,7 +359,8 @@
                         </div>
                         <div class="footer__link">
                             <ul>
-                                    <!--<li><a href="about-us"><i class="fa-solid fa-check"></i>About Us</a></li>-->
+                                    <li><a href="uk-home-students"><i class="fa-solid fa-angle-right"></i>UK Home Students</a></li>
+                                    <li><a href="international-recruitment"><i class="fa-solid fa-angle-right"></i>International Recruitment</a></li>
                                     <li><a href="courses"><i class="fa-solid fa-angle-right"></i>Courses</a></li>
                                     <li><a href="agents"><i class="fa-solid fa-check"></i>Agents</a></li>
                                     <li><a href="news-and-blogs"><i class="fa-solid fa-check"></i>News & Blogs</a></li>
