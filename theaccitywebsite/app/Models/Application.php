@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+
+class Application extends Model
+{
+    protected $fillable = [
+        'name',
+        'number',
+        'email',
+        'address',
+        'occupation',
+        'organization',
+        'website',
+        'country',
+        'status',
+        'admin_note'
+    ];
+}
