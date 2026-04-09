@@ -6,13 +6,13 @@
     <!-- Basic Meta -->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Theaccity - Empowering Futures Through Global Education</title>
+    <title>@yield('title', 'Theaccity - Empowering Futures Through Global Education')</title>
 
     <meta name="description"
-        content="Theaccity helps students achieve their dream of global education with expert guidance on study abroad, university admission, visa processing, and career opportunities.">
+        content="@yield('meta_description', 'Theaccity helps students achieve their dream of global education with expert guidance on study abroad, university admission, visa processing, and career opportunities.')">
 
     <meta name="keywords"
-        content="Theaccity, Study Abroad, Global Education, University Admission, Student Visa, Overseas Education, Study Consultancy, International Study">
+        content="@yield('meta_keywords', 'Theaccity, Study Abroad, Global Education, University Admission, Student Visa, Overseas Education, Study Consultancy, International Study')">
 
     <meta name="author" content="Theaccity">
     <meta name="robots" content="index, follow">
@@ -22,29 +22,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://www.theaccity.com/">
+    <link rel="canonical" href="@yield('canonical', 'https://www.theaccity.com/')">
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="https://www.theaccity.com/web-assets/imgs/logo/accity-icon.png">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Theaccity - Empowering Futures Through Global Education">
+    <meta property="og:title" content="@yield('title', 'Theaccity - Empowering Futures Through Global Education')">
     <meta property="og:description"
-        content="Get expert guidance for studying abroad, university admissions, and student visas with Theaccity.">
-    <meta property="og:url" content="https://www.theaccity.com/">
+        content="@yield('meta_description', 'Get expert guidance for studying abroad, university admissions, and student visas with Theaccity.')">
+    <meta property="og:url" content="@yield('canonical', 'https://www.theaccity.com/')">
     <meta property="og:site_name" content="Theaccity">
     <meta property="og:image" content="https://www.theaccity.com/web-assets/imgs/logo/accity-icon.png">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Theaccity - Empowering Futures Through Global Education">
+    <meta name="twitter:title" content="@yield('title', 'Theaccity - Empowering Futures Through Global Education')">
     <meta name="twitter:description"
-        content="Expert consultancy for global education, university admission, and study abroad opportunities.">
+        content="@yield('meta_description', 'Expert consultancy for global education, university admission, and study abroad opportunities.')">
     <meta name="twitter:image" content="https://www.theaccity.com/web-assets/imgs/logo/accity-icon.png">
 
     <!-- Theme Color -->
     <meta name="theme-color" content="#ffffff">
+
+    <!-- JSON-LD Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.theaccity.com/#organization",
+          "name": "TheAccity",
+          "url": "https://www.theaccity.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.theaccity.com/web-assets/imgs/logo/accity-icon.png",
+            "width": 180,
+            "height": 60
+          },
+          "sameAs": [
+            "https://www.facebook.com/accityltd",
+            "https://www.instagram.com/accityltd/",
+            "https://www.tiktok.com/@accityltd",
+            "https://www.youtube.com/@accityltd"
+          ]
+        },
+        {
+          "@type": "LocalBusiness",
+          "parentOrganization": {
+            "@id": "https://www.theaccity.com/#organization"
+          },
+          "name": "TheAccity London Office",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Room G2-G4, Ground Floor, 251-253 Commercial Road",
+            "addressLocality": "London",
+            "postalCode": "E1 2BT",
+            "addressCountry": "UK"
+          },
+          "telephone": "+44 208 1435507",
+          "email": "info@theaccity.com",
+          "url": "https://www.theaccity.com/contact"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.theaccity.com/#website",
+          "url": "https://www.theaccity.com/",
+          "name": "TheAccity",
+          "publisher": {
+            "@id": "https://www.theaccity.com/#organization"
+          }
+        }
+      ]
+    }
+    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -437,7 +490,7 @@
                                 </a>
                             </div>
                             <div class="footer__content">
-                                <p>{{ $settings['footer_description'] ?? 'We are a reliable student visa consultancy, guiding students in university admission, visa processing, and study abroad support.' }}
+                                <p>{{ $settings['footer_description'] ?? 'A leading international education consultancy dedicated to empowering students through global academic pathways and expert university admission support.' }}
                                 </p>
                             </div>
 
@@ -600,8 +653,11 @@
                     <div class="footer__bottom">
                         <a
                             href="https://api.whatsapp.com/send?phone={{ $settings['whatsapp_number'] ?? '4407915184268' }}&text=Hi%20%F0%9F%91%8B%20Welcome%20to%20The%20Accity!%0A%0AThanks%20for%20contacting%20us.%0APlease%20share%20your%20query%20and%20our%20team%20will%20get%20back%20to%20you%20shortly.">
-                            <img src="https://www.e-sheba.com/assets/images/Live-Chat.gif"
-                                style="width: 128px; position: fixed; bottom: 4%; right: 3%;z-index: 200;" alt="">
+                            <img src="{{ asset('web-assets/imgs/footer/WhatsApp_icon.png') }}"
+                                style="width: 60px; position: fixed; bottom: 4%; right: 3%; z-index: 200; transition: transform 0.3s ease-in-out;" 
+                                onmouseover="this.style.transform='scale(1.1)'" 
+                                onmouseout="this.style.transform='scale(1)'" 
+                                alt="Chat with us on WhatsApp">
                         </a>
                         <div class="footer__copyright wow fadeInLeft animated" data-wow-delay=".6s">
                             <p>© {{ date('Y') }} {{ $settings['copyright_text'] ?? 'All Rights Reserved - Accity' }}</p>

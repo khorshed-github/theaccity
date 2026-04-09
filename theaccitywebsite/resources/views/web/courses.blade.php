@@ -1,4 +1,6 @@
 @extends('web_layouts.app')
+@section('title', 'UK University Courses for International & Home Students | TheAccity')
+@section('meta_description', 'Explore a wide range of UK university courses for international and home students. Get expert help with applications and course selection.')
 
 @section('wrapper')
 <!-- Body main wrapper start -->

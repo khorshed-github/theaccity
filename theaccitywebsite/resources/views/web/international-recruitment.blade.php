@@ -1,4 +1,6 @@
 @extends('web_layouts.app')
+@section('title', 'International Student Recruitment & Study Abroad Consultancy | TheAccity')
+@section('meta_description', 'Global education consultancy for international students. Get expert help with UK university admissions, visa guidance, and study abroad pathways from our London team.')
 
 @section('wrapper')
     <main>

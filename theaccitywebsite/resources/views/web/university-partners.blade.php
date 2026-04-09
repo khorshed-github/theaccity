@@ -1,4 +1,6 @@
 @extends('web_layouts.app')
+@section('title', 'Partner Universities & Colleges in the UK | TheAccity')
+@section('meta_description', 'View our extensive network of partner universities and colleges across the UK. We help you find the right institution for your academic goals.')
 
 @section('wrapper')
     <main>

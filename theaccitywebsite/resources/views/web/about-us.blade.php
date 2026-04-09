@@ -1,4 +1,6 @@
 @extends('web_layouts.app')
+@section('title', 'About TheAccity | Trusted Study Abroad & Admissions Consultancy')
+@section('meta_description', 'Learn about TheAccity, a premier education consultancy in London helping students with UK university admissions and global education pathways.')
 
 @section('wrapper')
 <!-- Body main wrapper start -->

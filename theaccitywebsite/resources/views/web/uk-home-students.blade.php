@@ -1,4 +1,6 @@
 @extends('web_layouts.app')
+@section('title', 'UK University Admission & Student Finance Support for Home Students | TheAccity')
+@section('meta_description', 'Expert guidance for UK home students. Get help with course selection, university applications, and Student Finance England (SFE) support from our London team.')
 
 @section('wrapper')
     <main>

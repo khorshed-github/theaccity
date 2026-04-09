@@ -1,0 +1,55 @@
+To improve SEO , please help with these points then I will start in google analytics
+Step 1: Fix your positioning before doing any technical SEO
+
+Rewrite the homepage and key service pages around the exact service categories you want to rank for:
+
+Study Abroad Consultancy
+UK University Admissions
+UK Home Student Support
+International Student Admissions
+Student Finance Guidance
+Visa Guidance for Students
+SOP / Application / Interview Support
+
+Right now, the homepage headline and sections lean heavily on “visa consulting” language, while the search result snippet already hints at a stronger direction: “international education consultancy” and “UK home and international students.” That education-first wording is much better for your niche and should be used consistently across titles, headings, body copy, and internal links.
+
+Step 2: Do keyword mapping page by page
+
+Do not try to rank one page for everything. Assign one main keyword theme per page.
+
+A practical map for your site:
+
+Homepage: educational consultancy in London / study abroad consultancy UK
+About page: trusted study abroad and admissions consultancy
+Courses page: UK university courses for international and home students
+University partners page: partner universities and colleges in the UK
+Contact page: study abroad consultant London / educational consultancy near me
+Blog pages: long-tail queries such as student finance UK 2026, UK university intake guide, foundation year in UK, etc.
+
+Google’s SEO Starter Guide recommends making it easy for both users and search engines to understand each page’s purpose.
+
+Step 3: Rewrite title tags and meta descriptions
+
+Your title tags need to be more targeted and commercial.
+
+Examples:
+
+Home title: TheAccity | Study Abroad & UK University Admission Consultants in London
+Meta description: Expert guidance for UK home and international students. Get help with course selection, university applications, student finance, SOPs and study abroad admissions from our London team.
+Courses title: UK University Courses for International & Home Students | TheAccity
+Contact title: Contact TheAccity | Education & Study Abroad Consultants in London.
+
+
+Biggest SEO problems I can already see on your site
+
+Right now, these are the most obvious blockers:
+
+the site language is partly education consultancy and partly immigration/visa template
+several sections look generic and low-trust
+many assets appear as missing images
+grammar and spelling errors weaken expertise and professionalism
+service intent is not tightly separated into targeted landing pages
+the homepage is trying to cover too many topics without a clear search focus
+
+
+We are not a visa provider, we help in admission process to home and international students

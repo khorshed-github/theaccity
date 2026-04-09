@@ -1,4 +1,6 @@
 @extends('web_layouts.app')
+@section('title', 'UK University Admissions & Study Abroad FAQ | TheAccity')
+@section('meta_description', 'Common questions and answers about UK university admissions, student finance, and our consultancy services. Get expert clarity on your study abroad journey.')
 
 @section('wrapper')
 <!-- Body main wrapper start -->
@@ -10,7 +12,7 @@
                 <div class="col-12">
                     <div class="breadcrumb__content">
                         <div class="breadcrumb__title-wrapper mb-15 mb-sm-10 mb-xs-5">
-                            <h1 class="breadcrumb__title color-white wow fadeInLeft animated" data-wow-delay=".2s">FAQ</h1>
+                            <h1 class="breadcrumb__title color-white wow fadeInLeft animated" data-wow-delay=".2s">Frequently Asked Questions</h1>
                         </div>
                         <div class="breadcrumb__menu wow fadeInLeft animated" data-wow-delay=".3s">
                             <nav>
@@ -35,36 +37,36 @@
                            <div class="accordion-item">
                                <h2 class="accordion-header" id="headingOne">
                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    What is the purpose of a visa?
+                                    How can TheAccity help me find the right university?
                                    </button>
                                </h2>
                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                    <div class="accordion-body">
-                                       <p>Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the industry's standard dummy text ever</p>
+                                       <p>Our expert advisors provide personalized counseling, carefully matching your academic background, professional goals, and financial preferences with the most suitable partner institutions across the UK.</p>
                                    </div>
                                </div>
                            </div>
                            <div class="accordion-item">
                                <h2 class="accordion-header" id="headingOne2">
                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="false" aria-controls="collapseOne2">
-                                    What documents are required for a visa application?
+                                    What documents are required for a UK university application?
                                    </button>
                                </h2>
                                <div id="collapseOne2" class="accordion-collapse collapse" aria-labelledby="headingOne2" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the industry's standard dummy text ever</p>
+                                    <p>Generally, you will need your updated CV, academic transcripts/certificates, English proficiency results (like IELTS or PTE), a well-written Personal Statement, and at least one academic or professional reference.</p>
                                 </div>
                                </div>
                            </div>
                            <div class="accordion-item">
                                <h2 class="accordion-header" id="headingOne3">
                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne3" aria-expanded="false" aria-controls="collapseOne3">
-                                    How much does it cost to work with your agency?
+                                    Does TheAccity charge students for its services?
                                    </button>
                                </h2>
                                <div id="collapseOne3" class="accordion-collapse collapse" aria-labelledby="headingOne3" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the industry's standard dummy text ever</p>
+                                    <p>Our core university admission and guidance services are typically free for students, as we are a partner of the institutions. We focus on ensuring you have a smooth and successful application journey.</p>
                                 </div>
                                </div>
                            </div>
