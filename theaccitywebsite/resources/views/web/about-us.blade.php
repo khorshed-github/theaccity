@@ -92,11 +92,11 @@
 
                             <p class="wow fadeInLeft animated mb-1" data-wow-delay=".9s" style="font-weight:700; color:#212958; font-size:14px; text-transform:uppercase; letter-spacing:0.5px;">We Specialise In:</p>
                             <ul class="about-spec-list wow fadeInLeft animated" data-wow-delay=".9s">
-                                <li><i class="fa-solid fa-circle-check"></i> UK University &amp; College Admissions</li>
-                                <li><i class="fa-solid fa-circle-check"></i> International Study Destinations</li>
-                                <li><i class="fa-solid fa-circle-check"></i> Foundation &amp; Top-Up Programs</li>
-                                <li><i class="fa-solid fa-circle-check"></i> Visa &amp; Compliance Guidance</li>
-                                <li><i class="fa-solid fa-circle-check"></i> Student Finance &amp; Funding Support</li>
+                                <li><i class="fa-solid fa-circle-check"></i> <a href="{{ url('university-partners') }}" style="color: inherit; text-decoration: none;">UK University &amp; College Admissions</a></li>
+                                <li><i class="fa-solid fa-circle-check"></i> <a href="{{ url('international-recruitment') }}" style="color: inherit; text-decoration: none;">International Study Destinations</a></li>
+                                <li><i class="fa-solid fa-circle-check"></i> <a href="{{ url('courses') }}" style="color: inherit; text-decoration: none;">Foundation &amp; Top-Up Programs</a></li>
+                                <li><i class="fa-solid fa-circle-check"></i> <a href="{{ url('visa') }}" style="color: inherit; text-decoration: none;">Visa &amp; Compliance Guidance</a></li>
+                                <li><i class="fa-solid fa-circle-check"></i> <a href="{{ url('uk-home-students') }}" style="color: inherit; text-decoration: none;">Student Finance &amp; Funding Support</a></li>
                             </ul>
 
                             <p class="choose-us__content-description wow fadeInLeft animated mb-2" data-wow-delay="1s" style="text-align:justify;">
@@ -178,6 +178,28 @@
                     </div>
                 </div>
                 
+            </div>
+        </div>
+
+        {{-- ===== Quick Navigation / Backlinks ===== --}}
+        <div class="row mt-50 mb-30 g-4">
+            <div class="col-md-4">
+                <a href="{{ url('university-partners') }}" class="d-block p-4 border rounded text-center text-decoration-none shadow-hover transition-3">
+                    <i class="fa-solid fa-building-columns mb-10 text-danger" style="font-size: 24px;"></i>
+                    <h5 class="mb-0" style="color:#212958;">University Partners</h5>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="{{ url('courses') }}" class="d-block p-4 border rounded text-center text-decoration-none shadow-hover transition-3">
+                    <i class="fa-solid fa-book-open mb-10 text-danger" style="font-size: 24px;"></i>
+                    <h5 class="mb-0" style="color:#212958;">Explore Courses</h5>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="{{ url('contact') }}" class="d-block p-4 border rounded text-center text-decoration-none shadow-hover transition-3">
+                    <i class="fa-solid fa-headset mb-10 text-danger" style="font-size: 24px;"></i>
+                    <h5 class="mb-0" style="color:#212958;">Get Full Support</h5>
+                </a>
             </div>
         </div>
     </section>

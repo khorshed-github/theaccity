@@ -338,6 +338,16 @@
       ]
     }
     </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HKBG878H4V"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HKBG878H4V');
+    </script>
 </head>
 
 <body>
@@ -535,7 +545,7 @@
                         <div class="footer__widget footer__widget-item-3 wow fadeInLeft animated mt-md-50 mt-sm-40 mt-xs-35"
                             data-wow-delay=".4s">
                             <div class="footer__widget-title">
-                                <h4>Useful Link</h4>
+                                <h4>Explore More</h4>
                             </div>
                             <div class="footer__link">
                                 <ul>
@@ -544,10 +554,12 @@
                                             Partners</a></li>
                                     <li><a href="support-a-students"><i class="fa-solid fa-angle-right"></i>Student
                                             Support</a></li>
-                                    <li><a href="/"><i class="fa-solid fa-angle-right"></i>Refer a friend</a></li>
-                                    <li><a href="agents"><i class="fa-solid fa-angle-right"></i>Become an Agent</a></li>
-                                    <li><a href="/"><i class="fa-solid fa-check"></i>Careers</a></li>
                                     <li><a href="gallery"><i class="fa-solid fa-check"></i>Gallery</a></li>
+                                    <li><a href="contact"><i class="fa-solid fa-angle-right"></i>Contact Us</a></li>
+                                    <li><a href="https://www.britishcouncil.org/" target="_blank"><i
+                                                class="fa-solid fa-external-link"></i>British Council</a></li>
+                                    <li><a href="https://www.ucas.com/" target="_blank"><i
+                                                class="fa-solid fa-external-link"></i>UCAS Official</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -654,10 +666,9 @@
                         <a
                             href="https://api.whatsapp.com/send?phone={{ $settings['whatsapp_number'] ?? '4407915184268' }}&text=Hi%20%F0%9F%91%8B%20Welcome%20to%20The%20Accity!%0A%0AThanks%20for%20contacting%20us.%0APlease%20share%20your%20query%20and%20our%20team%20will%20get%20back%20to%20you%20shortly.">
                             <img src="{{ asset('web-assets/imgs/footer/WhatsApp_icon.png') }}"
-                                style="width: 60px; position: fixed; bottom: 4%; right: 3%; z-index: 200; transition: transform 0.3s ease-in-out;" 
-                                onmouseover="this.style.transform='scale(1.1)'" 
-                                onmouseout="this.style.transform='scale(1)'" 
-                                alt="Chat with us on WhatsApp">
+                                style="width: 60px; position: fixed; bottom: 4%; right: 3%; z-index: 200; transition: transform 0.3s ease-in-out;"
+                                onmouseover="this.style.transform='scale(1.1)'"
+                                onmouseout="this.style.transform='scale(1)'" alt="Chat with us on WhatsApp">
                         </a>
                         <div class="footer__copyright wow fadeInLeft animated" data-wow-delay=".6s">
                             <p>© {{ date('Y') }} {{ $settings['copyright_text'] ?? 'All Rights Reserved - Accity' }}</p>

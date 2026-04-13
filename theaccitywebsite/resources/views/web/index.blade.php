@@ -109,11 +109,11 @@
                                 We Specialise In:
                             </p>
                             <ul class="home-about-spec-list wow fadeInLeft animated" data-wow-delay=".75s">
-                                <li><i class="fa-solid fa-circle-check"></i> UK University &amp; College Admissions</li>
-                                <li><i class="fa-solid fa-circle-check"></i> International Study Destinations</li>
-                                <li><i class="fa-solid fa-circle-check"></i> Foundation &amp; Top-Up Programs</li>
-                                <li><i class="fa-solid fa-circle-check"></i> Visa &amp; Compliance Guidance</li>
-                                <li><i class="fa-solid fa-circle-check"></i> Student Finance &amp; Funding Support</li>
+                                <li><i class="fa-solid fa-circle-check"></i> <a href="{{ url('university-partners') }}" style="color: inherit; text-decoration: none;">UK University &amp; College Admissions</a></li>
+                                <li><i class="fa-solid fa-circle-check"></i> <a href="{{ url('international-recruitment') }}" style="color: inherit; text-decoration: none;">International Study Destinations</a></li>
+                                <li><i class="fa-solid fa-circle-check"></i> <a href="{{ url('courses') }}" style="color: inherit; text-decoration: none;">Foundation &amp; Top-Up Programs</a></li>
+                                <li><i class="fa-solid fa-circle-check"></i> <a href="{{ url('visa') }}" style="color: inherit; text-decoration: none;">Visa &amp; Compliance Guidance</a></li>
+                                <li><i class="fa-solid fa-circle-check"></i> <a href="{{ url('uk-home-students') }}" style="color: inherit; text-decoration: none;">Student Finance &amp; Funding Support</a></li>
                             </ul>
 
                             <p class="wow fadeInLeft animated" data-wow-delay=".8s" style="text-align:justify;">

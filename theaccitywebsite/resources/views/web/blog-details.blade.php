@@ -216,25 +216,24 @@
                             <h5 class="sidebar__widget-title sidebar__widget-title__have-bar">Category</h5>
 
                             <div class="sidebar__widget-category">
-                                <a class="mt-20" href="blog-details"><span><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
-                                    </svg> Flight Booking</span>
+                                <a class="mt-20" href="{{ url('uk-home-students') }}"><span><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
+                                    </svg> UK Home Students</span>
                                 </a>
-                                <a class="mt-15" href="blog-details"><span><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
-                                    </svg> Vacation Packages</span>
+                                <a class="mt-15" href="{{ url('international-recruitment') }}"><span><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
+                                    </svg> International Recruitment</span>
                                 </a>
-                                <a class="mt-15" href="blog-details"><span><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
-                                    </svg> Car Rental Services</span>
+                                <a class="mt-15" href="{{ url('university-partners') }}"><span><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
+                                    </svg> University Partners</span>
                                 </a>
-                                <a class="mt-15" href="blog-details"><span><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
-                                    </svg> Adventure Travel Planning</span>
+                                <a class="mt-15" href="{{ url('courses') }}"><span><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
+                                    </svg> Courses & Admissions</span>
                                 </a>
-                                <a class="mt-15" href="blog-details"><span><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
-                                    </svg> Group Travel Organization</span>
+                                <a class="mt-15" href="{{ url('visa') }}"><span><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
+                                    </svg> Visa & Compliance</span>
                                 </a>
-                                <a class="mt-15" href="blog-details"><span><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
-                                    </svg> Insurance Services</span>
+                                <a class="mt-15" href="{{ url('news-and-blogs') }}"><span><svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
+                                    </svg> Latest Insights</span>
                                 </a>
-                                
                             </div>
                         </div>
 

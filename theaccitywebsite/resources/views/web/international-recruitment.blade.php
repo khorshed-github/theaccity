@@ -141,6 +141,19 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5">
                          <img src="{{ asset('web-assets/imgs/faq/hero_image.svg') }}" class="img-fluid mb-40" alt="FAQ Support">
+                         
+                         <!-- Helpful Resources Sidebar / Card -->
+                         <div class="resources-card p-4 bg-white rounded-4 shadow-sm mt-3" style="border-top: 5px solid #DA3A34;">
+                            <h5 style="color:#212958;" class="mb-3">Useful Resources</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2"><a href="https://www.britishcouncil.org/" target="_blank" class="text-decoration-none" style="color:#374151;"><i class="fa-solid fa-external-link text-danger me-2" style="font-size: 12px;"></i> British Council</a></li>
+                                <li class="mb-2"><a href="https://www.ukcisa.org.uk/" target="_blank" class="text-decoration-none" style="color:#374151;"><i class="fa-solid fa-external-link text-danger me-2" style="font-size: 12px;"></i> UKCISA (Student Advice)</a></li>
+                                <li class="mb-2"><a href="https://www.ucas.com/" target="_blank" class="text-decoration-none" style="color:#374151;"><i class="fa-solid fa-external-link text-danger me-2" style="font-size: 12px;"></i> UCAS Admission</a></li>
+                                <li class="mb-2"><a href="https://www.gov.uk/student-visa" target="_blank" class="text-decoration-none" style="color:#374151;"><i class="fa-solid fa-external-link text-danger me-2" style="font-size: 12px;"></i> UK Student Visa Info</a></li>
+                                <li class="mb-2"><a href="https://www.ielts.org/" target="_blank" class="text-decoration-none" style="color:#374151;"><i class="fa-solid fa-external-link text-danger me-2" style="font-size: 12px;"></i> IELTS Official Site</a></li>
+                                <li><a href="https://www.pearsonpte.com/" target="_blank" class="text-decoration-none" style="color:#374151;"><i class="fa-solid fa-external-link text-danger me-2" style="font-size: 12px;"></i> Pearson PTE Academic</a></li>
+                            </ul>
+                         </div>
                     </div>
                     <div class="col-lg-7">
                         <div class="section__title-wrapper mb-40">
@@ -177,7 +190,22 @@
             </div>
         </section>
 
-        <!-- ✅ 05. Global CTA -->
+        <!-- ✅ 05. Partner Link Section -->
+        <section class="partner-link-area section-space pb-90">
+            <div class="container">
+                <div class="row align-items-center bg-white p-5 rounded-4 shadow-sm" style="border-right: 8px solid #212958;">
+                    <div class="col-md-8">
+                        <h3 style="color:#212958;">Global Institution Network</h3>
+                        <p class="mb-0">Access over 50+ world-class universities in the UK and globally. Find your perfect academic match.</p>
+                    </div>
+                    <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                        <a href="{{ url('university-partners') }}" class="rr-btn">Browse Partners <i class="fa-solid fa-earth-americas"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ✅ 06. Global CTA -->
         <section class="global-cta-area section-space overflow-hidden">
             <div class="container">
                 <div class="cta-box-intl p-55 rounded-5 shadow-lg text-center p-relative z-1" style="background: linear-gradient(135deg, #212958, #DA3A34);">

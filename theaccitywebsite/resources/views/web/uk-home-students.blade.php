@@ -159,11 +159,30 @@
         <!-- ✅ 04. FAQ Section -->
         <section class="faq-area bg-gray section-space">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 text-center mb-40">
-                        <h2 class="section__title-wrapper-title">Common Questions for <span style="color:#DA3A34;">Home Students</span></h2>
+                <div class="row align-items-center">
+                    <div class="col-lg-5 mb-40">
+                        <img src="{{ asset('web-assets/imgs/faq/hero_image.svg') }}" class="img-fluid" alt="Student support FAQ">
+                        
+                        <!-- Helpful Resources Card -->
+                        <div class="resources-card p-4 bg-white rounded-4 shadow-sm mt-4" style="border-top: 5px solid #212958;">
+                            <h5 style="color:#212958;" class="mb-3">UK Academic Resources</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2"><a href="https://www.ucas.com/" target="_blank" class="text-decoration-none" style="color:#374151;"><i class="fa-solid fa-external-link text-danger me-2" style="font-size: 12px;"></i> UCAS Official Website</a></li>
+                                <li class="mb-2"><a href="https://www.gov.uk/student-finance" target="_blank" class="text-decoration-none" style="color:#374151;"><i class="fa-solid fa-external-link text-danger me-2" style="font-size: 12px;"></i> Student Finance England</a></li>
+                                <li class="mb-2"><a href="https://www.slc.co.uk/" target="_blank" class="text-decoration-none" style="color:#374151;"><i class="fa-solid fa-external-link text-danger me-2" style="font-size: 12px;"></i> Student Loans Company (SLC)</a></li>
+                                <li class="mb-2"><a href="https://www.officeforstudents.org.uk/" target="_blank" class="text-decoration-none" style="color:#374151;"><i class="fa-solid fa-external-link text-danger me-2" style="font-size: 12px;"></i> Office for Students (OfS)</a></li>
+                                <li><a href="https://www.britishcouncil.org/" target="_blank" class="text-decoration-none" style="color:#374151;"><i class="fa-solid fa-external-link text-danger me-2" style="font-size: 12px;"></i> British Council UK</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="section__title-wrapper mb-40">
+                            <h2 class="section__title-wrapper-title">Common Questions for <span style="color:#DA3A34;">Home Students</span></h2>
+                        </div>
+
                     </div>
                 </div>
+
                 <div class="row">
                     <div class="col-lg-6 mb-30">
                         <div class="faq-item shadow-sm p-4 bg-white rounded-3 h-100">
@@ -181,7 +200,22 @@
             </div>
         </section>
 
-        <!-- ✅ 05. Final CTA -->
+        <!-- ✅ 05. Partner Link Section -->
+        <section class="partner-link-area section-space pb-90">
+            <div class="container">
+                <div class="row align-items-center bg-white p-5 rounded-4 shadow-sm" style="border-right: 8px solid #212958;">
+                    <div class="col-md-8">
+                        <h3 style="color:#212958;">Explore Our Partner Universities</h3>
+                        <p class="mb-0">We work with over 50+ prestigious universities across the UK. Discover where you could be studying next.</p>
+                    </div>
+                    <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                        <a href="{{ url('university-partners') }}" class="rr-btn">Browse Universities <i class="fa-solid fa-building-columns"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ✅ 06. Final CTA -->
         <section class="final-cta section-space overflow-hidden">
             <div class="container">
                 <div class="cta-4__bg shadow-lg p-5 rounded-4 d-flex align-items-center justify-content-between flex-wrap gap-4" style="background:#212958; border-left: 10px solid #DA3A34;">

@@ -471,5 +471,42 @@
             })();
         </script>
 
+
+        {{-- ===== Related Services / Backlinks ===== --}}
+        <section class="related-services-area section-space bg-gray" style="padding: 80px 0; background: #f8f9fa;">
+            <div class="container">
+                <div class="section__title-wrapper text-center mb-50">
+                    <h2 class="section__title-wrapper-title">Explore Our <span style="color:#DA3A34;">Services</span></h2>
+                    <p class="mt-15">Learn more about how we can support your academic journey beyond university selection.</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-link-card p-4 bg-white rounded shadow-sm text-center h-100" style="border-bottom: 3px solid #212958;">
+                            <i class="fa-solid fa-house-user mb-20" style="font-size: 32px; color: #DA3A34;"></i>
+                            <h4>UK Home Students</h4>
+                            <p class="small">Admission & Finance support for UK residents.</p>
+                            <a href="{{ url('uk-home-students') }}" class="mt-10 d-inline-block fw-bold text-decoration-none" style="color: #212958;">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-link-card p-4 bg-white rounded shadow-sm text-center h-100" style="border-bottom: 3px solid #212958;">
+                            <i class="fa-solid fa-globe mb-20" style="font-size: 32px; color: #DA3A34;"></i>
+                            <h4>International Recruitment</h4>
+                            <p class="small">Global education pathways & visa guidance.</p>
+                            <a href="{{ url('international-recruitment') }}" class="mt-10 d-inline-block fw-bold text-decoration-none" style="color: #212958;">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-link-card p-4 bg-white rounded shadow-sm text-center h-100" style="border-bottom: 3px solid #212958;">
+                            <i class="fa-solid fa-book-open mb-20" style="font-size: 32px; color: #DA3A34;"></i>
+                            <h4>Academic Courses</h4>
+                            <p class="small">Explore thousands of courses at our partner unis.</p>
+                            <a href="{{ url('courses') }}" class="mt-10 d-inline-block fw-bold text-decoration-none" style="color: #212958;">View Courses <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 @endsection
