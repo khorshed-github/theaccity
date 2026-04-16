@@ -12,7 +12,7 @@
         content="@yield('meta_description', 'Theaccity helps students achieve their dream of global education with expert guidance on study abroad, university admission, visa processing, and career opportunities.')">
 
     <meta name="keywords"
-        content="@yield('meta_keywords', 'Theaccity, Study Abroad, Global Education, University Admission, Student Visa, Overseas Education, Study Consultancy, International Study')">
+        content="@yield('meta_keywords', 'Accity education consultancy, The Accity London, theaccity study abroad, Accity UK admission, Accity student consultancy, Theaccity, Study Abroad, Global Education, University Admission, Student Visa, Overseas Education, Study Consultancy, International Study,study in UK consultancy London, education consultancy London, study abroad consultant London, UK university admission help, free student consultancy UK, international student consultancy London, UK foundation course consultancy, study in UK without IELTS consultancy, UK admission consultant London, best education consultant London, apply UK universities consultancy, student visa help London, UK university application support, study abroad London consultancy, international student advisor UK')">
 
     <meta name="author" content="Theaccity">
     <meta name="robots" content="index, follow">
@@ -348,6 +348,22 @@
 
         gtag('config', 'G-HKBG878H4V');
     </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P84VBGCD');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P84VBGCD" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 </head>
 
 <body>
