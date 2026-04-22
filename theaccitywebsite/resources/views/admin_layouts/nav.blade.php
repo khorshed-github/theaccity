@@ -112,6 +112,12 @@
                 <div class="menu-title"> Agents Request</div>
              </a>
         </li>
+        
+        <li><a href="{{ route('admin.career-request') }}">
+            <div class="parent-icon"><i class="bx bx-briefcase"></i></div>
+                <div class="menu-title"> Career Request</div>
+             </a>
+        </li>
         <li><a href="{{ route('admin.contact-request') }}">
             <div class="parent-icon"><i class="bx bx-user-circle"></i></div>
                 <div class="menu-title"> Contact Request</div>

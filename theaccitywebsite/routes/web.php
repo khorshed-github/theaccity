@@ -22,6 +22,7 @@ use App\Http\Controllers\ApplicationController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\SubscriptionController;
 use App\Http\Controllers\ApplyCourseController;
+use App\Http\Controllers\CareerController;
 
 
 use App\Models\Qa;
@@ -160,12 +161,16 @@ Route::post('/ProfileRegisterForm', 'App\Http\Controllers\ProfileController@Prof
 Route::post('/updateProfileForm', 'App\Http\Controllers\ProfileController@updateProfileForm')->middleware('auth')->middleware('auth');
 
 
-Route::get('/agents-request', [ApplicationController::class, 'agent_request'])->middleware('auth');
+Route::get('/agents-request', [ApplicationController::class, 'agent_request'])->middleware('auth')->name('admin.agents-request');
 Route::post('/agents-request/{id}/status', [ApplicationController::class, 'agent_update_status'])->middleware('auth');
 Route::delete('/agents-request/{id}', [ApplicationController::class, 'agent_destroy'])->middleware('auth');
-Route::get('/contact-request', [ContactController::class, 'contact_request'])->middleware('auth');
-Route::get('/subscribe-request', [SubscriptionController::class, 'subscribe_request'])->middleware('auth');
-Route::get('/apply-course-request', [ApplyCourseController::class, 'apply_course_request'])->middleware('auth');
+
+Route::get('/career-request', [CareerController::class, 'career_request'])->middleware('auth')->name('admin.career-request');
+Route::delete('/career-request/{id}', [CareerController::class, 'destroy'])->middleware('auth')->name('admin.career-request.destroy');
+
+Route::get('/contact-request', [ContactController::class, 'contact_request'])->middleware('auth')->name('admin.contact-request');
+Route::get('/subscribe-request', [SubscriptionController::class, 'subscribe_request'])->middleware('auth')->name('admin.subscribe-request');
+Route::get('/apply-course-request', [ApplyCourseController::class, 'apply_course_request'])->middleware('auth')->name('admin.apply-course-request');
 
 
 
@@ -174,6 +179,9 @@ Route::post('/apply', [ApplicationController::class, 'store'])->name('applicatio
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 Route::post('/apply_course', [ApplyCourseController::class, 'store'])->name('apply_course.store');
 Route::post('/subscribe', [SubscriptionController::class, 'store'])->name('subscribe.store');
+
+Route::get('career', [CareerController::class, 'index'])->name('career');
+Route::post('career', [CareerController::class, 'store'])->name('career.store');
 
 
 

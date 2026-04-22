@@ -348,7 +348,7 @@
 
         gtag('config', 'G-HKBG878H4V');
     </script>
-    [2:10 PM, 4/16/2026] Zahed Hosain: <!-- Google Tag Manager -->
+    <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
                 'gtm.start':
@@ -358,7 +358,7 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-P84VBGCD');</script>
     <!-- End Google Tag Manager -->
-    [2:11 PM, 4/16/2026] Zahed Hosain: <!-- Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P84VBGCD" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
@@ -569,6 +569,7 @@
                                     <li><a href="support-a-students"><i class="fa-solid fa-angle-right"></i>Student
                                             Support</a></li>
                                     <li><a href="gallery"><i class="fa-solid fa-check"></i>Gallery</a></li>
+                                    <li><a href="career"><i class="fa-solid fa-angle-right"></i>Career</a></li>
                                     <li><a href="contact"><i class="fa-solid fa-angle-right"></i>Contact Us</a></li>
                                     <li><a href="https://www.britishcouncil.org/" target="_blank"><i
                                                 class="fa-solid fa-external-link"></i>British Council</a></li>
